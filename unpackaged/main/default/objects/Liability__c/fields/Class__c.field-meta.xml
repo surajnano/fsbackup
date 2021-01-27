@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Class__c</fullName>
+    <externalId>false</externalId>
+    <label>Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Mortgage</fullName>
+                <default>false</default>
+                <label>Mortgage</label>
+            </value>
+            <value>
+                <fullName>Personal loan</fullName>
+                <default>false</default>
+                <label>Personal loan</label>
+            </value>
+            <value>
+                <fullName>Vehicle loan</fullName>
+                <default>false</default>
+                <label>Vehicle loan (e.g. car or boat)</label>
+            </value>
+            <value>
+                <fullName>Lease</fullName>
+                <default>false</default>
+                <label>Lease</label>
+            </value>
+            <value>
+                <fullName>Credit card</fullName>
+                <default>false</default>
+                <label>Credit card</label>
+            </value>
+            <value>
+                <fullName>Lines of credit</fullName>
+                <default>false</default>
+                <label>Lines of credit</label>
+            </value>
+            <value>
+                <fullName>Store card</fullName>
+                <default>false</default>
+                <label>Store card</label>
+            </value>
+            <value>
+                <fullName>Overdraft</fullName>
+                <default>false</default>
+                <label>Overdraft</label>
+            </value>
+            <value>
+                <fullName>Margin loan</fullName>
+                <default>false</default>
+                <label>Margin loan</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

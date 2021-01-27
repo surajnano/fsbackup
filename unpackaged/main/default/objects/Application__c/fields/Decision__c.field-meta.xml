@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Decision__c</fullName>
+    <externalId>false</externalId>
+    <label>Decision</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Decline - Hard</fullName>
+                <default>false</default>
+                <label>Decline - Hard</label>
+            </value>
+            <value>
+                <fullName>Decline - Soft</fullName>
+                <default>false</default>
+                <label>Decline - Soft</label>
+            </value>
+            <value>
+                <fullName>Refer - Capacity</fullName>
+                <default>false</default>
+                <label>Refer - Capacity</label>
+            </value>
+            <value>
+                <fullName>Refer - Bureau</fullName>
+                <default>false</default>
+                <label>Refer - Bureau</label>
+            </value>
+            <value>
+                <fullName>Refer - Collateral</fullName>
+                <default>false</default>
+                <label>Refer - Collateral</label>
+            </value>
+            <value>
+                <fullName>Refer – Applicant</fullName>
+                <default>false</default>
+                <label>Refer – Applicant</label>
+            </value>
+            <value>
+                <fullName>Acceptance Condition</fullName>
+                <default>false</default>
+                <label>Acceptance Condition</label>
+            </value>
+            <value>
+                <fullName>Auto-Approved</fullName>
+                <default>false</default>
+                <label>Auto-Approved</label>
+            </value>
+            <value>
+                <fullName>Approved Manually</fullName>
+                <default>false</default>
+                <label>Approved Manually</label>
+            </value>
+            <value>
+                <fullName>Fallback Approve</fullName>
+                <default>false</default>
+                <label>Fallback Approve</label>
+            </value>
+            <value>
+                <fullName>Vendor Response</fullName>
+                <default>false</default>
+                <label>Vendor Response</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

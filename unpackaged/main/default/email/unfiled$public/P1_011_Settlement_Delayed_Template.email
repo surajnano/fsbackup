@@ -1,0 +1,385 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style type="text/css">
+      ReadMsgBody{
+        width: 100%;
+      }
+      .ExternalClass {
+        width: 100%;
+      }
+      .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {
+        line-height: 100%;
+      }
+      body {
+        -webkit-text-size-adjust:100%;
+        -ms-text-size-adjust:100%;
+        margin:0 !important;
+      }
+      p {
+        margin: 1em 0;
+      }
+      table td {
+        border-collapse: collapse;
+      }
+      img {
+        outline:0;
+      }
+      a img {
+        border:none;
+      }
+      @-ms-viewport{
+        width: device-width;
+      }
+      th.responsive-td {
+        font-weight: normal;
+        text-align: left;
+      }
+      /* Custom CSS DO NOT DELETE */
+      div[class=mobilecontent]{
+          display: block !important;
+          max-height: none !important;
+       }
+      .ta-right{float:right;}
+      .ta-left{float:left;}
+      .desktop-show{display:block;}
+      .mobile-show{display:none !important;}
+      .btn-responsive{width:auto;}
+      
+    </style>
+    <style type="text/css">
+      @media only screen and (max-width: 480px) {
+        body[yahoo] .deviceWidthPadding { width: 320px !important; padding: 0 !important; }
+        body[yahoo] .deviceWidth { width: 300px !important; padding: 0 !important; }
+
+        .display-inline {
+          display:inline!important;
+        }
+        .font-size-16 {
+          font-size: 16px!important;
+        }
+        .align-left {
+          text-align: left!important;
+        }
+        .remove-border {
+          border: none!important;
+        }
+        .padding-bottom-20 {
+          padding-bottom: 20px!important;
+        }
+        .padding-bottom-15 {
+          padding-bottom: 15px!important;
+        }
+        .padding-bottom-10 {
+          padding-bottom: 10px!important;
+        }
+        .container {
+          width: 100% !important;
+        }
+        .footer {
+          width:auto !important;
+          margin-left:0;
+        }
+        .mobile-hidden {
+          display:none !important;
+        }
+        .logo {
+          display:block !important;
+          padding:0 !important;
+        }
+        img {
+          max-width:100% !important;
+          height:auto !important;
+          max-height:auto !important;
+        }
+        .header img{
+          max-width:100% !important;
+          height:auto !important;
+          max-height:auto !important;
+        }
+        .photo img {
+          width:100% !important;
+          max-width:100% !important;
+          height:auto !important;
+        }
+        .drop {
+          display:block !important;
+          width: 100% !important;
+          float:left;
+          clear:both;
+        }
+        .footerlogo {
+          display:block !important;
+          width: 100% !important;
+          padding-top:15px;
+          float:left;
+          clear:both;
+        }
+        .nav4, .nav5, .nav6 {
+          display: none !important;
+        }
+        .tableBlock {
+          width:100% !important;
+        }
+        /* REPLACE THIS DEFAULT MARKETING CLOUD STYLE WITH UPDATED STYLES FOR OUTLOOK
+        .responsive-td {width:100% !important; display:block !important; padding:0 !important; }
+        */
+        .fluid, .fluid-centered {
+          width: 100% !important;
+          max-width: 100% !important;
+          height: auto !important;
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+        .fluid-centered {
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+        /* MOBILE GLOBAL STYLES - DO NOT CHANGE */
+        /* YOU SHOULD REALLY CHOOSE YOUR OWN FONT STYLE CHANGES FOR MOBILE
+        body { padding: 0px !important; font-size: 16px !important; line-height: 150% !important;}
+        h1 { font-size: 22px !important; line-height: normal !important;}
+        h2 { font-size: 20px !important; line-height: normal !important;}
+        h3 { font-size: 18px !important; line-height: normal !important;}
+        .buttonstyles {
+        font-family:arial,helvetica,sans-serif !important;
+        font-size: 16px !important;
+        color: #FFFFFF !important;
+        padding: 10px !important;
+      } */
+        /* END OF MOBILE GLOBAL STYLES - DO NOT CHANGE */
+        /* THESE ARE THE NEW STYLES FOR THE MS OUTLOOK MOBILE APP */
+        /* HIDES THE DISPLAY CHANGE FROM OUTLOOK */
+        [class].responsive-td {
+          width: 100% !important;
+          display: block !important;
+        }
+        
+        /* just Outlook webmail */
+        [class~="x_responsive-td"] {
+        width: 100% !important; 
+        display: block !important; 
+        }
+        /* MAKE SURE THE GMAIL APP FOR IOS GETS THE DISPLAY CHANGE,
+        YOU MUST ADD THE CLASS "body" TO THE BODY TAG FOR THIS TO WORK */
+        u + .body .responsive-td {
+          width: 100% !important;
+          display: block !important;
+        }
+        /* ONLY THE OUTLOOK APP WILL APPLY THE FIXED WIDTH TO THE CONTAINER */
+        body[data-outlook-cycle] .container {
+          width: 480px !important;
+        }
+        /* CUSTOM CSS DO NOT DELETE */
+        .ta-right{float:none !important;}
+        .ta-left{float:none !important;}
+        .ta-center{text-align:center !important;}
+        .desktop-show{display:none !important;}
+        .mobile-show{display:block !important;}
+        .head-text{font-size:30px !important;}
+        .btn-responsive{width:100% !important;}
+      }
+      @media only screen and (max-width: 640px) {
+        .container {
+          width:100% !important;
+        }
+        .mobile-hidden {
+          display:none !important;
+        }
+        .logo {
+          display:block !important;
+          padding:0 !important;
+        }
+        .photo img {
+          width:100% !important;
+          height:auto !important;
+        }
+        .nav5, .nav6 {
+          display: none !important;
+        }
+        .fluid, .fluid-centered {
+          width: 100% !important;
+          max-width: 100% !important;
+          height: auto !important;
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+        .fluid-centered {
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+        /* What it does: Forces table cells into full-width rows. */
+        .stack-column,
+        .stack-column-center {
+          display: block !important;
+          width: 100% !important;
+          max-width: 100% !important;
+          direction: ltr !important;
+        }
+        /* And center justify these ones. */
+        .stack-column-center {
+          text-align: center !important;
+        }
+        /* What it does: Generic utility class for centering. Useful for images, buttons, and nested tables. */
+        .center-on-narrow {
+          text-align: center !important;
+          display: block !important;
+          margin-left: auto !important;
+          margin-right: auto !important;
+          float: none !important;
+        }
+        table.center-on-narrow {
+          display: inline-block !important;
+        }
+        /* What it does: Adjust typography on small screens to improve readability */
+        .email-container p {
+          font-size: 17px !important;
+        }
+      }
+    </style>
+    <!--[if mso]>
+<style type="text/css">
+/* Begin Outlook Font Fix */
+body, table, td {
+font-family : Arial, helvetica, sans-serif;
+line-height : 100%;
+font-size : 16px;
+color : #0C0C0C;
+}
+/* End Outlook Font Fix */
+</style>
+<![endif]-->
+  </head>
+  <body class="body" bgcolor="#EEEEEE" text="#808080" style="margin: 0px; -webkit-text-size-adjust:none;background-color : #EEEEEE; font-family : Arial, helvetica, sans-serif; line-height : 100%; font-size : 16px; color : #0C0C0C; padding : 0px; " data-new-gr-c-s-check-loaded="14.984.0" data-gr-ext-installed="" cz-shortcut-listen="true">
+    <div style="font-size:0; line-height:0;">
+      <custom name="opencounter" type="tracking">
+        <custom name="usermatch" type="tracking">
+        </custom></custom></div>
+      <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+        <tbody>
+        <tr>
+          <td align="center">
+            <table cellspacing="0" cellpadding="0" border="0" width="600" class="container" align="center">
+              <tbody><tr>
+                <td>
+                  <!-- added the border style here -->
+                  <table style="background-color : #FFFFFF; border : 0px solid transparent;font-size : 16px; font-family : Arial, helvetica, sans-serif; line-height : 100%; color : #0C0C0C; " class="tb_properties border_style" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" width="100%">
+                    <!-- end of comment -->
+                    <tbody><tr>
+                      <td align="center" valign="top">
+                        <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+                          <tbody><tr>
+                            <!-- added padding here -->
+                            <td class="content_padding" style="border:0px;padding : 0px; ">
+                              <!-- end of comment -->
+                              <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                <tbody>
+                                <tr>
+                                  <td align="center" class="header" valign="top">
+                                    <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="background-color: transparent; min-width: 100%; " class="stylingblock-content-wrapper"><tbody><tr><td style="padding: 20px 40px; " class="stylingblock-content-wrapper camarker-inner"><table width="100%" cellspacing="0" cellpadding="0" role="presentation"><tbody><tr><td align="left"><a alias="Nano Website" conversion="false" data-linkto="https://" href="https://nano.com.au/" title="Nano Website"><img src="https://verteva--shareddev--c.documentforce.com/servlet/servlet.ImageServer?id=0150l000000leSh&amp;oid=00D0l000000DmEJ&amp;lastMod=1605256427000" alt="" height="35" width="120" style="display: block; padding: 0px; border: 0px solid transparent; text-align: left; height: 35px; width: 120px;"></a></td></tr></tbody></table></td></tr></tbody></table>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" class="" valign="top">
+                                    <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="background-color: transparent; min-width: 100%; " class="stylingblock-content-wrapper"><tbody><tr><td style="padding: 0px; " class="stylingblock-content-wrapper camarker-inner"><!-- HEADER BEGIN -->
+<table cellpadding="0" cellspacing="0" class="stylingblock-content-wrapper" style="min-width: 100%; " width="100%">
+ 
+  <tbody><tr>
+   <th class="stylingblock-content-margin-cell" style="padding: 0px 40px; ">
+    <table cellpadding="0" cellspacing="0" class="stylingblock-content-wrapper remove-border" style="background-color: #FFFFFF; min-width: 100%;border-top: solid 1px #EEE;border-bottom: solid 1px #EEE;" width="100%">
+     
+      <tbody><tr>
+       <th class="stylingblock-content-wrapper camarker-inner" style="padding: 20px 0px 0px 0px; ">
+        <table cellpadding="0" cellspacing="0" style="width: 100%; ">
+         
+          <tbody><tr>
+           <th>
+            <table cellpadding="0" cellspacing="0" dir="rtl" style="width: 95%;">
+             
+              <tbody><tr>
+               <th class="responsive-td" dir="ltr" style="width: 60%; padding-left: 3px;" valign="top">
+                <table cellpadding="0" cellspacing="0" class="stylingblock-content-wrapper" style="background-color: #FFFFFF; min-width: 100%; " width="100%">
+                 
+                  <tbody><tr>
+                   <th class="stylingblock-content-wrapper camarker-inner">
+                    <div align="center" class="email-banner-desktop">
+                     <table align="center" cellpadding="0" cellspacing="0" width="100%">
+                      
+                       <tbody><tr>
+                        <th align="center" class="email-banner-desktop padding-bottom-20" style="line-height: 36px;height: auto;display: block;overflow: visible;width:auto;overflow: visible;padding-bottom:20px;">
+                          
+<!-- HEADER TEXT STYLE CHANGE HERE -->
+                         <div align="left" style=" text-align: left !important;">
+                          <span style="font-size:35px;"><span style="font-family:Arial,Helvetica,sans-serif;"><font color="#656263">
+                            
+<!-- HEADER TEXT CHANGE HERE -->Your Nano home loan settlement is delayed </font></span></span></div>
+                          <!-- END -->
+                         </th></tr></tbody></table></div></th></tr></tbody></table></th><th align="left" class="responsive-td" dir="ltr" style="width: 35%; padding-right: 3px; text-align: left!important;" valign="top">
+                <table align="left" cellpadding="0" cellspacing="0" class="stylingblock-content-wrapper" style="background-color: transparent; min-width: 100%; text-align: left!important;" width="100%">
+                 
+                  <tbody><tr>
+                   <th align="left" class="stylingblock-content-wrapper camarker-inner" style="padding: 0px; text-align: left!important;" valign="top">
+                    <table align="left" border="0" cellpadding="0" cellspacing="0" style="text-align: left!important;" width="100%">
+                     
+                      <tbody><tr>
+                       <th align="left" style="text-align: left!important;">
+                         
+<!-- HEADER IMAGE CHANGE HERE -->
+                        <img alt="" border="0" data-assetid="768798" height="110" hspace="0" src="https://verteva--shareddev--c.documentforce.com/servlet/servlet.ImageServer?id=0150l000000leSm&amp;oid=00D0l000000DmEJ&amp;lastMod=1605256455000" style="display: block; max-width: 260px; padding: 0px; height: 110px; width: 130px; text-align: center;" vspace="0" width="130">
+
+<!-- END -->
+
+                        </th></tr></tbody></table></th></tr></tbody></table></th></tr></tbody></table></th></tr></tbody></table></th></tr></tbody></table></th></tr></tbody></table>
+<!-- HEADER END -->
+</td></tr></tbody></table>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" class="" valign="top">
+                                    <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="background-color: transparent; min-width: 100%; " class="stylingblock-content-wrapper"><tbody><tr><td style="padding: 40px; " class="stylingblock-content-wrapper camarker-inner"><!-- BODY-TEXT BEGIN -->
+<table cellpadding="0" cellspacing="0">
+  <tbody><tr>
+   <td style="line-height:25px;padding-bottom:15px;">
+    <span style="font-size:24px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="color:#585858;"><b>{!LEFT(Contact.FirstName,1) + LOWER(RIGHT(Contact.FirstName,LEN(Contact.FirstName)-1))}, </b></span></span></span></td></tr><tr>
+   <td style="line-height:22px;">
+    <span style="font-size:16px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="color:#7F7F7F;">We are confirming your request to delay the settlement of your Nano home loan.<br><br>When you are ready to proceed with settlement, you can reply to this email or call me on 13 NANO (13 6266).<br><br>{!Case.OwnerFirstName}
+<br>
+Nano Customer Support</span></span></span></td></tr></tbody></table><!-- BODY-TEXT END --></td></tr></tbody></table>
+                                  </td>
+                                </tr>
+                                
+                                <tr>
+                                  <td align="center" valign="top">
+                                    <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="background-color: #000000; min-width: 100%; " class="slot-styling"><tbody><tr><td style="padding: 0px; " class="slot-styling camarker-inner"><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="background-color: transparent; min-width: 100%; " class="stylingblock-content-wrapper"><tbody><tr><td style="padding: 30px 40px 20px; " class="stylingblock-content-wrapper camarker-inner"><table cellspacing="0" cellpadding="0" style="width: 100%;"><tbody><tr><td><table cellspacing="0" cellpadding="0" style="width: 100%;"><tbody><tr><td valign="top" class="responsive-td" style="width: 50%; padding-right: 3px;"><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="background-color: transparent; min-width: 100%; " class="stylingblock-content-wrapper"><tbody><tr><td style="padding: 0px 0px 5px; " class="stylingblock-content-wrapper camarker-inner">
+<span style="line-height:25px;"><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="color:#009EDE;"><b>CONTACT US </b></span></span></span><br>
+<span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="color:#ecf0f1;">13 NANO (13 6266) • </span> <a alias="Nano Support" conversion="false" data-linkto="mailto:" href="mailto:help@nano.com.au?subject=" style="color:#949494;text-decoration:underline;" title="Nano Support">help@nano.com.au</a></span></span></span></td></tr></tbody></table></td><td valign="top" class="responsive-td" style="width: 50%; padding-left: 3px;"><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tbody><tr><td class="stylingblock-content-wrapper camarker-inner"><div class="ta-right" style="float:right;">
+ <table border="0" cellpadding="0" cellspacing="0">
+  
+   <tbody><tr>
+    <td style="text-align: center; padding-right: 5px; line-height: 100%;">
+     <a href="https://click.e.nano.com.au/?qs=0bd599ab7bd14633e223fc703a896568f054787bf9524c1fb036de929b7d1130d57b010bc1cc85efbad3746715504ab47f6fcf553d61a40b"><img alt="Nano Facebook" data-assetid="7639" height="43" src="https://image.e.nano.com.au/lib/fe3c117171640475741470/m/1/642a8f36-693a-48bd-8939-c1041f53d84a.png" style="display: block; width: 43px; padding: 0px; height: 43px;" width="43"></a></td><td style="text-align: center; padding-right: 5px; line-height: 100%;">
+     <a href="https://click.e.nano.com.au/?qs=0bd599ab7bd14633f7d9fd87727b83c2a992ddbb774ee72b7d09b534f11ce2696f4622031724a7faabf7b7cfbf618ecdc342957575a275b2"><img alt="Nano LinkedIn" data-assetid="7640" height="43" src="https://image.e.nano.com.au/lib/fe3c117171640475741470/m/1/065dcf6c-768b-42cd-b839-f38c6c45285f.png" style="display: block; width: 43px; padding: 0px; height: 43px;" width="43"></a></td><td style="text-align: center; padding-right: 5px; line-height: 100%;">
+     <a href="https://click.e.nano.com.au/?qs=0bd599ab7bd14633502ac022fe815fdad2fc9b2df432e374d1bbba0adaa4c878a6645e1bea511c2c8625e79a9d4c6ab7c06ee53c77ac1366"><img alt="Nano Instagram" data-assetid="7641" height="43" src="https://image.e.nano.com.au/lib/fe3c117171640475741470/m/1/c7999360-6ec6-48dc-bec7-6cec58770d51.png" style="display: block; width: 43px; padding: 0px; text-align: center; height: 43px;" width="43"></a></td></tr></tbody></table></div></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="background-color: #F5F5F5; min-width: 100%; " class="stylingblock-content-wrapper"><tbody><tr><td style="padding: 20px 40px; " class="stylingblock-content-wrapper camarker-inner"><span style="font-size:12px;"><span style="color:#7F7F7F;"><b>©2020 Nano Lending Pty Ltd</b><br>
+ABN 85 628 608 391. Australian Credit Licence 511406.</span></span></td></tr></tbody></table></td></tr></tbody></table> 
+                                    
+                                  </td>
+                                </tr></tbody></table>
+                                  </td>
+                                </tr>
+                              </tbody></table>
+                            </td>
+                          </tr>
+                        </tbody></table>
+                      </td>
+                    </tr>
+                  </tbody></table>
+                </td>
+              </tr>
+            </tbody></table>
+          
+        
+       
+      
+      
+    </body></html>

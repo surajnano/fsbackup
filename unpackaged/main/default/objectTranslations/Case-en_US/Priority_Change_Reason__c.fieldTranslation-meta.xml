@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Provide a reason as to why the case priority was changed --></help>
+        <label><!-- Priority Change Reason --></label>
+        <name>Priority_Change_Reason__c</name>
+    </CustomFieldTranslation>

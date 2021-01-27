@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>StreetNoandStreetName__c</fullName>
+    <externalId>false</externalId>
+    <formula>if(LEN(Number__c)&gt;0, Number__c&amp; " " , "") &amp;
+if(LEN(Street__c)&gt;0, Street__c&amp; " " , "" )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Street No and Street Name</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

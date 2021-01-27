@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- All coded character set valid. Reference as submitted by the User
+indicating details of the origin of the entry e.g. Payroll number,
+invoice, contract number.
+Left justified, blank filled. Must not contain all blanks. --></help>
+        <label><!-- Lodgement Reference --></label>
+        <name>Lodgement_Reference__c</name>
+    </CustomFieldTranslation>

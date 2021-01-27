@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Application_Submitted__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Tracks if the application was submitted by the customer</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Tracks if the application was submitted by the customer</inlineHelpText>
+    <label>Application Submitted</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

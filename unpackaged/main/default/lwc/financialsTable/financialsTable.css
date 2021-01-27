@@ -1,0 +1,11 @@
+.slds-accordion__summary {
+    background-color: #F3F2F2 !important;
+}
+
+.parent-record {
+    font-weight: bold;
+}
+
+.slds-table tr:last-child * {
+    font-weight: 800;
+}

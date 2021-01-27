@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Base salary</masterLabel>
+            <translation><!-- Base salary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Car allowance</masterLabel>
+            <translation><!-- Car allowance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regular overtime/shift allowance</masterLabel>
+            <translation><!-- Regular overtime/shift allowance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rental income</masterLabel>
+            <translation><!-- Rental income --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

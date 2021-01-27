@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Name_of_user_supplying_file__c</fullName>
+    <description>Must be User Preferred Specification as advised in Application. Left
+justified, blank filled.
+All coded character set valid. Must not be all blanks.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Must be User Preferred Specification as advised in Application. Left
+justified, blank filled.
+All coded character set valid. Must not be all blanks.</inlineHelpText>
+    <label>Name of user supplying file</label>
+    <length>26</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

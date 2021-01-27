@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Numeric only valid. Must equal accumulated number of Record
+Type 1 items on the file. Right justified, zero filled. --></help>
+        <label><!-- Count of Records --></label>
+        <name>Count_of_Records__c</name>
+    </CustomFieldTranslation>

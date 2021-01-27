@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Industry__c</fullName>
+    <externalId>false</externalId>
+    <label>Industry</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Agriculture, Forestry and Fishing</fullName>
+                <default>true</default>
+                <label>Agriculture, Forestry and Fishing</label>
+            </value>
+            <value>
+                <fullName>Mining</fullName>
+                <default>false</default>
+                <label>Mining</label>
+            </value>
+            <value>
+                <fullName>Manufacturing</fullName>
+                <default>false</default>
+                <label>Manufacturing</label>
+            </value>
+            <value>
+                <fullName>Electricity, Gas, Water and Waste Services</fullName>
+                <default>false</default>
+                <label>Electricity, Gas, Water and Waste Services</label>
+            </value>
+            <value>
+                <fullName>Construction</fullName>
+                <default>false</default>
+                <label>Construction</label>
+            </value>
+            <value>
+                <fullName>Wholesale Trade</fullName>
+                <default>false</default>
+                <label>Wholesale Trade</label>
+            </value>
+            <value>
+                <fullName>Retail Trade</fullName>
+                <default>false</default>
+                <label>Retail Trade</label>
+            </value>
+            <value>
+                <fullName>Accommodation and Food Services</fullName>
+                <default>false</default>
+                <label>Accommodation and Food Services</label>
+            </value>
+            <value>
+                <fullName>Transport, Postal and Warehousing</fullName>
+                <default>false</default>
+                <label>Transport, Postal and Warehousing</label>
+            </value>
+            <value>
+                <fullName>Information Media and Telecommunications</fullName>
+                <default>false</default>
+                <label>Information Media and Telecommunications</label>
+            </value>
+            <value>
+                <fullName>Financial and Insurance Services</fullName>
+                <default>false</default>
+                <label>Financial and Insurance Services</label>
+            </value>
+            <value>
+                <fullName>Rental, Hiring and Real Estate Services</fullName>
+                <default>false</default>
+                <label>Rental, Hiring and Real Estate Services</label>
+            </value>
+            <value>
+                <fullName>Professional, Scientific and Technical Services</fullName>
+                <default>false</default>
+                <label>Professional, Scientific and Technical Services</label>
+            </value>
+            <value>
+                <fullName>Administrative and Support Services</fullName>
+                <default>false</default>
+                <label>Administrative and Support Services</label>
+            </value>
+            <value>
+                <fullName>Public Administration and Safety</fullName>
+                <default>false</default>
+                <label>Public Administration and Safety</label>
+            </value>
+            <value>
+                <fullName>Education and Training</fullName>
+                <default>false</default>
+                <label>Education and Training</label>
+            </value>
+            <value>
+                <fullName>Health Care and Social Assistance</fullName>
+                <default>false</default>
+                <label>Health Care and Social Assistance</label>
+            </value>
+            <value>
+                <fullName>Arts and Recreation Services</fullName>
+                <default>false</default>
+                <label>Arts and Recreation Services</label>
+            </value>
+            <value>
+                <fullName>Other Services</fullName>
+                <default>false</default>
+                <label>Other Services</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

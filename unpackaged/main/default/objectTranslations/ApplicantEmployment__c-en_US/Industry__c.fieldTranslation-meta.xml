@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Industry --></label>
+        <name>Industry__c</name>
+        <picklistValues>
+            <masterLabel>Accommodation and Food Services</masterLabel>
+            <translation><!-- Accommodation and Food Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Administrative and Support Services</masterLabel>
+            <translation><!-- Administrative and Support Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Agriculture, Forestry and Fishing</masterLabel>
+            <translation><!-- Agriculture, Forestry and Fishing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arts and Recreation Services</masterLabel>
+            <translation><!-- Arts and Recreation Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Construction</masterLabel>
+            <translation><!-- Construction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Education and Training</masterLabel>
+            <translation><!-- Education and Training --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Electricity, Gas, Water and Waste Services</masterLabel>
+            <translation><!-- Electricity, Gas, Water and Waste Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financial and Insurance Services</masterLabel>
+            <translation><!-- Financial and Insurance Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Health Care and Social Assistance</masterLabel>
+            <translation><!-- Health Care and Social Assistance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Information Media and Telecommunications</masterLabel>
+            <translation><!-- Information Media and Telecommunications --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manufacturing</masterLabel>
+            <translation><!-- Manufacturing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mining</masterLabel>
+            <translation><!-- Mining --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Services</masterLabel>
+            <translation><!-- Other Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Professional, Scientific and Technical Services</masterLabel>
+            <translation><!-- Professional, Scientific and Technical Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public Administration and Safety</masterLabel>
+            <translation><!-- Public Administration and Safety --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rental, Hiring and Real Estate Services</masterLabel>
+            <translation><!-- Rental, Hiring and Real Estate Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retail Trade</masterLabel>
+            <translation><!-- Retail Trade --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transport, Postal and Warehousing</masterLabel>
+            <translation><!-- Transport, Postal and Warehousing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wholesale Trade</masterLabel>
+            <translation><!-- Wholesale Trade --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

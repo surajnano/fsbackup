@@ -1,0 +1,32 @@
+<!--
+ - Created by Suraj on 14/12/2020.
+ -->
+
+<aura:component description="RequestReDecision" implements="force:lightningQuickActionWithoutHeader,force:hasRecordId">
+    <aura:attribute name="recordId" type="Id" />
+    <aura:html tag="style">
+        .cuf-content {
+        padding: 0 0rem !important;
+        }
+        .slds-p-around--medium {
+        padding: 0rem !important;
+        }
+        .slds-modal__content {
+        overflow-y:hidden !important;
+        height:unset !important;
+        max-height:unset !important;
+        }
+    </aura:html>
+
+    <c:calloutWrapper
+            serviceName="RequestReDecision"
+            modalTitle="Request Re-Decision"
+            displayMessage="Are you sure you want to Request Re-Decision?"
+            onconfirmsuccess="{!c.confirmSuccess}"
+            oncancel="{!c.cancel}"
+            recordId="{!v.recordId}"
+            queryObjectName="Application__c"
+            queryFields="ID, Name, LastModifiedDate, ExternalId__c"
+            queryFilterField="Id"
+    />
+</aura:component>

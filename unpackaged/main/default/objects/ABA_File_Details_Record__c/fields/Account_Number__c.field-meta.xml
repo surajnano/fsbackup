@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Number__c</fullName>
+    <description>Numeric, hyphens and blanks only are valid. Must not contain all
+blanks or zeros. Leading zeros which are part of a valid account
+number must be shown, e.g. 00-1234.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Numeric, hyphens and blanks only are valid. Must not contain all
+blanks or zeros. Leading zeros which are part of a valid account
+number must be shown, e.g. 00-1234.</inlineHelpText>
+    <label>Account Number</label>
+    <length>9</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

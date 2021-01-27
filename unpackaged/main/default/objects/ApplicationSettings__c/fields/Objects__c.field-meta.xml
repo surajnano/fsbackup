@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Objects__c</fullName>
+    <description>a comma separated list of object api names that have to be scanned through for enums and have their values send via rest api to external apps</description>
+    <externalId>false</externalId>
+    <inlineHelpText>a comma separated list of object api names that have to be scanned through for enums and have their values send via rest api to external apps</inlineHelpText>
+    <label>Objects</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

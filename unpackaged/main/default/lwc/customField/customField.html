@@ -1,0 +1,20 @@
+<template>
+
+    <div class="slds-truncate">
+
+        <div class="slds-form-element slds-form-element_readonly slds-form-element_stacked">
+            <div class="slds-form-element__label">
+                <span>{title}</span>
+            </div>
+            <div class="slds-form-element__control">
+                <span class={fieldClass}>
+                    <lightning-formatted-number if:true={isNumber} format-style={formatStyle} value={value}></lightning-formatted-number>
+                    <lightning-formatted-date-time if:true={isDate} value={value} year="numeric" day="2-digit" month="long" hour="2-digit" minute="2-digit"></lightning-formatted-date-time>
+                    <lightning-formatted-url if:true={isUrl} value={value} label={label}></lightning-formatted-url>
+                </span>
+            </div>
+        </div>
+
+    </div>
+    
+</template>

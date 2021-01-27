@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Category --></label>
+        <name>Category__c</name>
+        <picklistValues>
+            <masterLabel>Child Support</masterLabel>
+            <translation><!-- Child Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Childcare and education</masterLabel>
+            <translation><!-- Childcare and education --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clothing/Personal Care</masterLabel>
+            <translation><!-- Clothing/Personal Care --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Groceries</masterLabel>
+            <translation><!-- Groceries --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Household Goods</masterLabel>
+            <translation><!-- Household Goods --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Household utility bills</masterLabel>
+            <translation><!-- Household utility bills --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insurance</masterLabel>
+            <translation><!-- Insurance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medical and health</masterLabel>
+            <translation><!-- Medical and health --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Professional Service</masterLabel>
+            <translation><!-- Professional Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recreation and entertainment</masterLabel>
+            <translation><!-- Recreation and entertainment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rent</masterLabel>
+            <translation><!-- Rent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Telecommunication</masterLabel>
+            <translation><!-- Telecommunication --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transport</masterLabel>
+            <translation><!-- Transport --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

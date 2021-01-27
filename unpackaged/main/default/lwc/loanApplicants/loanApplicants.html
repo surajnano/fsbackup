@@ -1,0 +1,37 @@
+<template>
+    
+    <lightning-layout if:true={applicants}>
+        <lightning-layout-item size="2">
+            <lightning-vertical-navigation selected-item={currentApplicant} onselect={handleSelect} class="navigation">
+                <template for:each={applicants} for:item="applicant">
+                    <lightning-vertical-navigation-item-icon
+                        key={applicant.Id}
+                        label={applicant.Contact.Name}
+                        name={applicant.Id}
+                        style="display: block"
+                        icon-name="utility:user">
+                    </lightning-vertical-navigation-item-icon>
+                </template>
+            </lightning-vertical-navigation>
+        </lightning-layout-item>
+
+        <lightning-layout-item size="10" padding="left-medium">
+
+            <lightning-tabset active-tab-value="one">
+                <lightning-tab label="Details" value="one">
+                    =={currentApplicant}==
+                    <lightning-record-form record-id={currentApplicant} object-api-name="LoanApplicant" layout-type="Full" mode="view"></lightning-record-form>
+                </lightning-tab>
+                <lightning-tab label="Financials" value="two">
+                    <c-financials-table></c-financials-table>
+                </lightning-tab>
+                
+            </lightning-tabset>
+            
+
+
+        </lightning-layout-item>
+
+    </lightning-layout>
+    
+</template>

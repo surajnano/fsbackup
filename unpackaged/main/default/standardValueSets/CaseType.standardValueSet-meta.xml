@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>General</fullName>
+        <default>false</default>
+        <label>General</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Feedback</fullName>
+        <default>false</default>
+        <label>Feedback</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Payment and Card</fullName>
+        <default>false</default>
+        <label>Payment and Card</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Loan servicing</fullName>
+        <default>false</default>
+        <label>Loan servicing</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Technical issue</fullName>
+        <default>false</default>
+        <label>Technical issue</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Chargebacks and Disputes</fullName>
+        <default>false</default>
+        <label>Chargebacks and Disputes</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Fraud</fullName>
+        <default>false</default>
+        <label>Fraud</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Complaint</fullName>
+        <default>false</default>
+        <label>Complaint</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Arrears</fullName>
+        <default>false</default>
+        <label>Arrears</label>
+    </standardValue>
+    <standardValue>
+        <fullName>OFI initiated DE Dispute</fullName>
+        <default>false</default>
+        <label>OFI initiated DE Dispute</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Copy of Loan Contract</fullName>
+        <default>false</default>
+        <label>Copy of Loan Contract</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Payout Figure</fullName>
+        <default>false</default>
+        <label>Payout Figure</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Copy of Suitability Assessment</fullName>
+        <default>false</default>
+        <label>Copy of Suitability Assessment</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email Enquiry</fullName>
+        <default>false</default>
+        <label>Email Enquiry</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Call back</fullName>
+        <default>false</default>
+        <label>Call back</label>
+    </standardValue>
+</StandardValueSet>

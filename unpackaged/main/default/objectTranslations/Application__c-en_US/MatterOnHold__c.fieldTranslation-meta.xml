@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Matter On Hold --></label>
+        <name>MatterOnHold__c</name>
+        <picklistValues>
+            <masterLabel>Broker advised to place the matter on hold</masterLabel>
+            <translation><!-- Broker advised to place the matter on hold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Confirming instructions with lender</masterLabel>
+            <translation><!-- Confirming instructions with lender --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit expiry date</masterLabel>
+            <translation><!-- Credit expiry date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data change - Name</masterLabel>
+            <translation><!-- Data change - Name --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data change – Email address</masterLabel>
+            <translation><!-- Data change – Email address --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data change – Mobile number</masterLabel>
+            <translation><!-- Data change – Mobile number --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data change – Ownership split</masterLabel>
+            <translation><!-- Data change – Ownership split --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data change – residential address</masterLabel>
+            <translation><!-- Data change – residential address --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data change – security address</masterLabel>
+            <translation><!-- Data change – security address --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data change – special condition</masterLabel>
+            <translation><!-- Data change – special condition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Further ID Required</masterLabel>
+            <translation><!-- Further ID Required --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Instruction Error</masterLabel>
+            <translation><!-- Instruction Error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lender advised to place file on hold</masterLabel>
+            <translation><!-- Lender advised to place file on hold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mortgagor Discrepancy</masterLabel>
+            <translation><!-- Mortgagor Discrepancy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Name Discrepancies</masterLabel>
+            <translation><!-- Name Discrepancies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rate Dispute</masterLabel>
+            <translation><!-- Rate Dispute --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resubmission</masterLabel>
+            <translation><!-- Resubmission --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supporting Document Missing</masterLabel>
+            <translation><!-- Supporting Document Missing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Title Search Discrepancy</masterLabel>
+            <translation><!-- Title Search Discrepancy --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

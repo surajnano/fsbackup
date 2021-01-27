@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Application_Queue_Application</fullName>
+    <columns>NAME</columns>
+    <columns>LoanAmount__c</columns>
+    <columns>PropertyValue__c</columns>
+    <columns>PropertyPurpose__c</columns>
+    <columns>AVMLVR__c</columns>
+    <columns>EVMLVR__c</columns>
+    <columns>Decision__c</columns>
+    <columns>ApprovalDate__c</columns>
+    <columns>InterestRate__c</columns>
+    <columns>InterestOnlyRate__c</columns>
+    <columns>Discount__c</columns>
+    <columns>JointSingle__c</columns>
+    <filterScope>Queue</filterScope>
+    <label>Application Queue</label>
+    <queue>Application_Queue</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

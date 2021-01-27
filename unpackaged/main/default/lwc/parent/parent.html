@@ -1,0 +1,33 @@
+<template>
+
+    <div class="slds-is-relative" >
+        <c-child current-record={currentRecord} onrecordupdate={handleRecordUpdate}>
+
+            <div slot="body">
+                <lightning-card title="Latest Valuation" variant="narrow" icon-name="standard:currency">
+
+                    <div slot="actions">
+                        <lightning-button variant="brand" label="Order Valuation" onclick={callout}></lightning-button>
+                    </div>
+
+                    <div class="slds-p-around_small">
+
+                        <lightning-record-form
+                            if:true={currentRecord}
+                            record-id={currentRecord.Id}
+                            object-api-name="Valuation__c"
+                            layout-type="Full"
+                            columns="2"
+                            mode="readonly">
+                        </lightning-record-form>
+
+                    </div>
+
+                </lightning-card>
+        
+            </div>
+
+
+        </c-child>
+    </div>
+</template>

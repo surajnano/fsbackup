@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RepaymentCalc__c</fullName>
+    <description>When we get the repayment amount for the contract, it must be CL if not it will get it from CL API and save it with CL set before returning it.
+
+When we recalc, if the status even allows us to recalc (see OK-857) then if it’s CL it uses CL API, otherwise it uses PY.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>CL it uses CL API, otherwise it uses PY.</inlineHelpText>
+    <label>Repayment Calc</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>PY</fullName>
+                <default>true</default>
+                <label>PY</label>
+            </value>
+            <value>
+                <fullName>CL</fullName>
+                <default>false</default>
+                <label>CL</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

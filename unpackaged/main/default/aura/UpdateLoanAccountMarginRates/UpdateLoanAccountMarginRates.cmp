@@ -1,0 +1,66 @@
+<aura:component implements="force:lightningQuickActionWithoutHeader,force:hasRecordId" controller="UpdateLoanAccountMarginRatesController">
+    <aura:attribute name="recordId" type="Id" />
+    <aura:attribute name="rateSchedule" type="clcommon__Rate_Schedule__c" />
+    <aura:attribute name="showSpinner" type="boolean" default="false"/>
+
+    <aura:handler event="aura:waiting" action="{!c.showSpinner}"/>
+    <aura:handler event="aura:doneWaiting" action="{!c.hideSpinner}"/>
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+
+    <aura:html tag="style">
+        .cuf-content {
+            padding: 0 0rem !important;
+        }
+        .slds-p-around--medium {
+            padding: 0rem !important;
+        }
+        .slds-modal__content {
+            overflow-y:hidden !important;
+            height:unset !important;
+            max-height:unset !important;
+        }
+    </aura:html> 
+
+    <div class="slds-is-relative" >
+
+        <header class="slds-modal__header">
+            <h2 id="modal-heading-01" class="slds-modal__title slds-hyphenate">Update All Loan Account Margin Rates</h2>
+        </header>
+
+        <!--loading spinner start... style=Brand Medium (blue dots)-->
+        <aura:if isTrue="{!v.showSpinner}">
+            <div aura:id="spinnerId" class="slds-spinner_container">
+            <div class="slds-spinner--brand  slds-spinner slds-spinner--large slds-is-relative" role="alert">
+                <span class="slds-assistive-text">Loading</span>
+                <div class="slds-spinner__dot-a"></div>
+                <div class="slds-spinner__dot-b"></div>
+            </div>
+            </div>
+        </aura:if>
+        <!-- Loading spinner end--> 
+        
+        <div class="slds-modal__content slds-p-around_medium" id="modal-content-id-1">
+            Are you sure you want to update the margin rate for all loan accounts matching the following criteria:
+            <br/>
+            <table style="margin-top: 10px;">
+                <tr>
+                    <td style="width: 30%;">Property Purpose:</td>
+                    <td><b>{!v.rateSchedule.Property_Purpose__c}</b></td>
+                </tr>
+                <tr>
+                    <td>Repayment Type:</td>
+                    <td><b>{!v.rateSchedule.Repayment_Type__c}</b></td>
+                </tr>
+            </table>
+        </div>
+
+       
+        <footer class="slds-modal__footer slds-align_absolute-center">
+            <button class="slds-button slds-button_neutral" onclick="{!c.cancel}">Cancel</button>
+            <button class="slds-button slds-button_brand" onclick="{!c.confirmAction}">Confirm</button>
+        </footer>
+
+    </div> 
+
+
+</aura:component>

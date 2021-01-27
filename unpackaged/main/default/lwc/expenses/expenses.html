@@ -1,0 +1,79 @@
+<template>
+
+	<c-financials-accordion section-title="Expenses" icon-size="x-small" button-label="New Expense" onbuttonclick={openModal}>
+        <span slot="header-1">
+           <c-custom-field is-number format-style="currency" value={application.monthlyexpenses__c} title="Living expenses" form-element-inline-style="border-bottom: 0;"></c-custom-field>
+        </span>
+        <span slot="header-2">
+            <c-custom-field is-number format-style="currency" value={application.expenseshem__c} title="HEM Ratio" form-element-inline-style="border-bottom: 0;"></c-custom-field>
+        </span>
+		<span slot="content">
+            <div if:true={showLoading}>
+				<lightning-spinner alternative-text="Loading..." variant="brand">
+				</lightning-spinner>
+			</div>
+        <div>
+        <lightning-datatable
+				key-field="Id"
+				hide-checkbox-column="true"
+				data={data}
+				columns={columns}
+				onrowaction={handleRowActions}>
+        </lightning-datatable>
+            </div>
+        </span>
+	</c-financials-accordion>
+
+
+
+	<!-- modal start -->        
+	<template if:true={showModal}>
+
+		<section role="dialog" class="slds-modal slds-fade-in-open">
+			<div class="slds-modal__container">
+			
+				<header class="slds-modal__header">
+					<button class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse" title="Close" onclick={closeModal}>
+						<lightning-icon icon-name="utility:close" alternative-text="close" variant="inverse" size="small" ></lightning-icon>
+						<span class="slds-assistive-text">Close</span>
+					</button>
+					<h2 class="slds-text-heading_medium slds-hyphenate">{modalHeader}</h2>
+				</header>
+			
+				<div class="slds-modal__content slds-p-around_large" >
+
+					<lightning-record-edit-form record-id={editRecordId} object-api-name="Expense__c" onsuccess={handleExpenseSuccess} onload={handleLoad} >
+						<lightning-messages></lightning-messages>
+						<div class="slds-grid slds-wrap slds-gutters">
+							<div class="slds-col slds-size_1-of-2">
+								<lightning-input-field field-name="Application__c" value={applicationId}></lightning-input-field>
+							</div>
+							<template for:each={labels} for:item="field">
+								<div class="slds-col slds-size_1-of-2" key={field.fieldName}>
+									<lightning-input-field field-name={field.fieldName}></lightning-input-field>
+								</div>
+
+							</template>
+						</div>
+						
+
+						<footer if:true={showFooter} class="slds-modal__footer slds-align_absolute-center">
+							<lightning-button class="slds-m-around_xx-small lightning-record-form-cancel" variant="neutral" label="Cancel" onclick={closeModal}></lightning-button>
+							<lightning-button class="slds-m-around_xx-small lightning-record-form-submit" variant="brand" type="submit" label="Save"></lightning-button>
+						</footer>
+					</lightning-record-edit-form>
+						
+				</div>
+				
+			</div>
+		</section>
+		<div class="slds-backdrop slds-backdrop_open"></div>
+	</template>
+	<!-- modal end -->
+
+
+
+
+
+
+</template>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Are changes expected in next 3 years? --></label>
+        <name>ChangesExpectedNext3Years__c</name>
+    </CustomFieldTranslation>

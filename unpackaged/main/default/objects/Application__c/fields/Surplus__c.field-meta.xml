@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Surplus__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(ISNULL(MonthlyIncome__c)  ||  ISNULL(MonthlyExpenses__c) || ISNULL(MonthlyLiabilities__c) || ISNULL(RepaymentAmount__c), 0, MAX(0, MonthlyIncome__c - MonthlyExpenses__c - MonthlyLiabilities__c -  RepaymentAmount__c))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Surplus</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

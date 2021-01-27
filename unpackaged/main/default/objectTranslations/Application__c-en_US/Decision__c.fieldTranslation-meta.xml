@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Decision --></label>
+        <name>Decision__c</name>
+        <picklistValues>
+            <masterLabel>Acceptance Condition</masterLabel>
+            <translation><!-- Acceptance Condition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Approved Manually</masterLabel>
+            <translation><!-- Approved Manually --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auto-Approved</masterLabel>
+            <translation><!-- Auto-Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Decline - Hard</masterLabel>
+            <translation><!-- Decline - Hard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Decline - Soft</masterLabel>
+            <translation><!-- Decline - Soft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fallback Approve</masterLabel>
+            <translation><!-- Fallback Approve --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Refer - Bureau</masterLabel>
+            <translation><!-- Refer - Bureau --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Refer - Capacity</masterLabel>
+            <translation><!-- Refer - Capacity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Refer - Collateral</masterLabel>
+            <translation><!-- Refer - Collateral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Refer – Applicant</masterLabel>
+            <translation><!-- Refer – Applicant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vendor Response</masterLabel>
+            <translation><!-- Vendor Response --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

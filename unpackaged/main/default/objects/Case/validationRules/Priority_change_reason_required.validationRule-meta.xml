@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Priority_change_reason_required</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISCHANGED(Priority),
+NOT(ISPICKVAL( Priority, "Default for Type")),
+NOT(ISCHANGED( Priority_Change_Reason__c ))
+)</errorConditionFormula>
+    <errorDisplayField>Priority_Change_Reason__c</errorDisplayField>
+    <errorMessage>A reason is required when changing the priority</errorMessage>
+</ValidationRule>

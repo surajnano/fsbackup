@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Matter Not Processing --></label>
+        <name>MatterNotProcessing__c</name>
+        <picklistValues>
+            <masterLabel>Broker advised no longer proceeding</masterLabel>
+            <translation><!-- Broker advised no longer proceeding --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Duplicate</masterLabel>
+            <translation><!-- Duplicate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lender advised no longer proceeding</masterLabel>
+            <translation><!-- Lender advised no longer proceeding --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loan Documents expired</masterLabel>
+            <translation><!-- Loan Documents expired --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Placeholder CancelMatter Reason</masterLabel>
+            <translation><!-- Placeholder CancelMatter Reason --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

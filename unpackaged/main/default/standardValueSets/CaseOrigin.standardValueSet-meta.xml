@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Contact Us Form</fullName>
+        <default>false</default>
+        <label>Contact Us Form</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email - App</fullName>
+        <default>false</default>
+        <label>Email - App</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email - Help</fullName>
+        <default>false</default>
+        <label>Email - Help</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email - Info</fullName>
+        <default>false</default>
+        <label>Email - Info</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Live Chat</fullName>
+        <default>false</default>
+        <label>Live Chat</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Phone</fullName>
+        <default>false</default>
+        <label>Phone</label>
+    </standardValue>
+</StandardValueSet>

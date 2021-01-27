@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Chief_Risk_Officer_Chief_Executive_Off_Application</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Chief Risk Officer / Chief Executive Off</label>
+    <queue>Chief_Risk_Officer_Chief_Executive_Off</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

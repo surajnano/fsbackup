@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Must be numeric with a hyphen in character position 5. Character
+positions 2 and 3 must equal valid Financial Institution number.
+Character position 4 must equal a valid State number (0-9). --></help>
+        <label><!-- BSB Number --></label>
+        <name>BSB_Number__c</name>
+    </CustomFieldTranslation>

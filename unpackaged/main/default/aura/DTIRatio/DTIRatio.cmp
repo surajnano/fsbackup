@@ -1,0 +1,32 @@
+<!--
+ - Created by Muhammad on 16/11/20.
+ -->
+
+<aura:component description="DTIRatio" implements="force:lightningQuickActionWithoutHeader,force:hasRecordId">
+    <aura:attribute name="recordId" type="Id" />
+    <aura:html tag="style">
+        .cuf-content {
+        padding: 0 0rem !important;
+        }
+        .slds-p-around--medium {
+        padding: 0rem !important;
+        }
+        .slds-modal__content {
+        overflow-y:hidden !important;
+        height:unset !important;
+        max-height:unset !important;
+        }
+    </aura:html>
+
+    <c:calloutWrapper
+            serviceName="DTICalculations"
+            modalTitle="Request DTI Ratio?"
+            displayMessage="Are you sure you want to request DTI Ratio?"
+            onconfirmsuccess="{!c.confirmSuccess}"
+            oncancel="{!c.cancel}"
+            recordId="{!v.recordId}"
+            queryObjectName="Application__c"
+            queryFields="ID, Name, LastModifiedDate, ExternalId__c"
+            queryFilterField="Id"
+    />
+</aura:component>

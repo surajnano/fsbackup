@@ -1,0 +1,791 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SubIndustry__c</fullName>
+    <externalId>false</externalId>
+    <label>Sub Industry</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Industry__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Agriculture</fullName>
+                <default>false</default>
+                <label>Agriculture</label>
+            </value>
+            <value>
+                <fullName>Aquaculture</fullName>
+                <default>false</default>
+                <label>Aquaculture</label>
+            </value>
+            <value>
+                <fullName>Forestry and Logging</fullName>
+                <default>false</default>
+                <label>Forestry and Logging</label>
+            </value>
+            <value>
+                <fullName>Fishing, Hunting and Trapping</fullName>
+                <default>false</default>
+                <label>Fishing, Hunting and Trapping</label>
+            </value>
+            <value>
+                <fullName>Agriculture, Forestry and Fishing Support Services</fullName>
+                <default>false</default>
+                <label>Agriculture, Forestry and Fishing Support Services</label>
+            </value>
+            <value>
+                <fullName>Coal Mining</fullName>
+                <default>false</default>
+                <label>Coal Mining</label>
+            </value>
+            <value>
+                <fullName>Oil and Gas Extraction</fullName>
+                <default>false</default>
+                <label>Oil and Gas Extraction</label>
+            </value>
+            <value>
+                <fullName>Metal Ore Mining</fullName>
+                <default>false</default>
+                <label>Metal Ore Mining</label>
+            </value>
+            <value>
+                <fullName>Non-Metallic Mineral Mining and Quarrying</fullName>
+                <default>false</default>
+                <label>Non-Metallic Mineral Mining and Quarrying</label>
+            </value>
+            <value>
+                <fullName>Exploration and Other Mining Support Services</fullName>
+                <default>false</default>
+                <label>Exploration and Other Mining Support Services</label>
+            </value>
+            <value>
+                <fullName>Food Product Manufacturing</fullName>
+                <default>false</default>
+                <label>Food Product Manufacturing</label>
+            </value>
+            <value>
+                <fullName>Beverage and Tobacco Product Manufacturing</fullName>
+                <default>false</default>
+                <label>Beverage and Tobacco Product Manufacturing</label>
+            </value>
+            <value>
+                <fullName>Textile, Leather, Clothing and Footwear Manufacturing</fullName>
+                <default>false</default>
+                <label>Textile, Leather, Clothing and Footwear Manufacturing</label>
+            </value>
+            <value>
+                <fullName>Wood Product Manufacturing</fullName>
+                <default>false</default>
+                <label>Wood Product Manufacturing</label>
+            </value>
+            <value>
+                <fullName>Pulp, Paper and Converted Paper Product Manufacturing</fullName>
+                <default>false</default>
+                <label>Pulp, Paper and Converted Paper Product Manufacturing</label>
+            </value>
+            <value>
+                <fullName>Printing (including the Reproduction of Recorded Media)</fullName>
+                <default>false</default>
+                <label>Printing (including the Reproduction of Recorded Media)</label>
+            </value>
+            <value>
+                <fullName>Petroleum and Coal Product Manufacturing</fullName>
+                <default>false</default>
+                <label>Petroleum and Coal Product Manufacturing</label>
+            </value>
+            <value>
+                <fullName>Basic Chemical and Chemical Product Manufacturing</fullName>
+                <default>false</default>
+                <label>Basic Chemical and Chemical Product Manufacturing</label>
+            </value>
+            <value>
+                <fullName>Polymer Product and Rubber Product Manufacturing</fullName>
+                <default>false</default>
+                <label>Polymer Product and Rubber Product Manufacturing</label>
+            </value>
+            <value>
+                <fullName>Non-Metallic Mineral Product Manufacturing</fullName>
+                <default>false</default>
+                <label>Non-Metallic Mineral Product Manufacturing</label>
+            </value>
+            <value>
+                <fullName>Primary Metal and Metal Product Manufacturing</fullName>
+                <default>false</default>
+                <label>Primary Metal and Metal Product Manufacturing</label>
+            </value>
+            <value>
+                <fullName>Fabricated Metal Product Manufacturing</fullName>
+                <default>false</default>
+                <label>Fabricated Metal Product Manufacturing</label>
+            </value>
+            <value>
+                <fullName>Transport Equipment Manufacturing</fullName>
+                <default>false</default>
+                <label>Transport Equipment Manufacturing</label>
+            </value>
+            <value>
+                <fullName>Machinery and Equipment Manufacturing</fullName>
+                <default>false</default>
+                <label>Machinery and Equipment Manufacturing</label>
+            </value>
+            <value>
+                <fullName>Furniture and Other Manufacturing</fullName>
+                <default>false</default>
+                <label>Furniture and Other Manufacturing</label>
+            </value>
+            <value>
+                <fullName>Electricity Supply</fullName>
+                <default>false</default>
+                <label>Electricity Supply</label>
+            </value>
+            <value>
+                <fullName>Gas Supply</fullName>
+                <default>false</default>
+                <label>Gas Supply</label>
+            </value>
+            <value>
+                <fullName>Water Supply, Sewerage and Drainage Services</fullName>
+                <default>false</default>
+                <label>Water Supply, Sewerage and Drainage Services</label>
+            </value>
+            <value>
+                <fullName>Waste Collection, Treatment and Disposal Services</fullName>
+                <default>false</default>
+                <label>Waste Collection, Treatment and Disposal Services</label>
+            </value>
+            <value>
+                <fullName>Building Construction</fullName>
+                <default>false</default>
+                <label>Building Construction</label>
+            </value>
+            <value>
+                <fullName>Heavy and Civil Engineering Construction</fullName>
+                <default>false</default>
+                <label>Heavy and Civil Engineering Construction</label>
+            </value>
+            <value>
+                <fullName>Construction Services</fullName>
+                <default>false</default>
+                <label>Construction Services</label>
+            </value>
+            <value>
+                <fullName>Basic Material Wholesaling</fullName>
+                <default>false</default>
+                <label>Basic Material Wholesaling</label>
+            </value>
+            <value>
+                <fullName>Machinery and Equipment Wholesaling</fullName>
+                <default>false</default>
+                <label>Machinery and Equipment Wholesaling</label>
+            </value>
+            <value>
+                <fullName>Motor Vehicle and Motor Vehicle Parts Wholesaling</fullName>
+                <default>false</default>
+                <label>Motor Vehicle and Motor Vehicle Parts Wholesaling</label>
+            </value>
+            <value>
+                <fullName>Grocery, Liquor and Tobacco Product Wholesaling</fullName>
+                <default>false</default>
+                <label>Grocery, Liquor and Tobacco Product Wholesaling</label>
+            </value>
+            <value>
+                <fullName>Other Goods Wholesaling</fullName>
+                <default>false</default>
+                <label>Other Goods Wholesaling</label>
+            </value>
+            <value>
+                <fullName>Commission-Based Wholesaling</fullName>
+                <default>false</default>
+                <label>Commission-Based Wholesaling</label>
+            </value>
+            <value>
+                <fullName>Motor Vehicle and Motor Vehicle Parts Retailing</fullName>
+                <default>false</default>
+                <label>Motor Vehicle and Motor Vehicle Parts Retailing</label>
+            </value>
+            <value>
+                <fullName>Food Retailing</fullName>
+                <default>false</default>
+                <label>Food Retailing</label>
+            </value>
+            <value>
+                <fullName>Other Store-Based Retailing</fullName>
+                <default>false</default>
+                <label>Other Store-Based Retailing</label>
+            </value>
+            <value>
+                <fullName>Non-Store Retailing and Retail Commission-Based Buying and/or Selling</fullName>
+                <default>false</default>
+                <label>Non-Store Retailing and Retail Commission-Based Buying and/or Selling</label>
+            </value>
+            <value>
+                <fullName>Accommodation</fullName>
+                <default>false</default>
+                <label>Accommodation</label>
+            </value>
+            <value>
+                <fullName>Food and Beverage Services</fullName>
+                <default>false</default>
+                <label>Food and Beverage Services</label>
+            </value>
+            <value>
+                <fullName>Road Transport</fullName>
+                <default>false</default>
+                <label>Road Transport</label>
+            </value>
+            <value>
+                <fullName>Rail Transport</fullName>
+                <default>false</default>
+                <label>Rail Transport</label>
+            </value>
+            <value>
+                <fullName>Water Transport</fullName>
+                <default>false</default>
+                <label>Water Transport</label>
+            </value>
+            <value>
+                <fullName>Air and Space Transport</fullName>
+                <default>false</default>
+                <label>Air and Space Transport</label>
+            </value>
+            <value>
+                <fullName>Other Transport</fullName>
+                <default>false</default>
+                <label>Other Transport</label>
+            </value>
+            <value>
+                <fullName>Postal and Courier Pick-up and Delivery Services</fullName>
+                <default>false</default>
+                <label>Postal and Courier Pick-up and Delivery Services</label>
+            </value>
+            <value>
+                <fullName>Transport Support Services</fullName>
+                <default>false</default>
+                <label>Transport Support Services</label>
+            </value>
+            <value>
+                <fullName>Warehousing and Storage Services</fullName>
+                <default>false</default>
+                <label>Warehousing and Storage Services</label>
+            </value>
+            <value>
+                <fullName>Publishing (except Internet and Music Publishing)</fullName>
+                <default>false</default>
+                <label>Publishing (except Internet and Music Publishing)</label>
+            </value>
+            <value>
+                <fullName>Motion Picture and Sound Recording Activities</fullName>
+                <default>false</default>
+                <label>Motion Picture and Sound Recording Activities</label>
+            </value>
+            <value>
+                <fullName>Broadcasting (except Internet)</fullName>
+                <default>false</default>
+                <label>Broadcasting (except Internet)</label>
+            </value>
+            <value>
+                <fullName>Internet Publishing and Broadcasting</fullName>
+                <default>false</default>
+                <label>Internet Publishing and Broadcasting</label>
+            </value>
+            <value>
+                <fullName>Telecommunications Services</fullName>
+                <default>false</default>
+                <label>Telecommunications Services</label>
+            </value>
+            <value>
+                <fullName>Internet Service Providers, Web Search Portals and Data Processing Services</fullName>
+                <default>false</default>
+                <label>Internet Service Providers, Web Search Portals and Data Processing Services</label>
+            </value>
+            <value>
+                <fullName>Library and Other Information Services</fullName>
+                <default>false</default>
+                <label>Library and Other Information Services</label>
+            </value>
+            <value>
+                <fullName>Finance</fullName>
+                <default>false</default>
+                <label>Finance</label>
+            </value>
+            <value>
+                <fullName>Insurance and Superannuation Funds</fullName>
+                <default>false</default>
+                <label>Insurance and Superannuation Funds</label>
+            </value>
+            <value>
+                <fullName>Auxiliary Finance and Insurance Services</fullName>
+                <default>false</default>
+                <label>Auxiliary Finance and Insurance Services</label>
+            </value>
+            <value>
+                <fullName>Rental and Hiring Services (except Real Estate)</fullName>
+                <default>false</default>
+                <label>Rental and Hiring Services (except Real Estate)</label>
+            </value>
+            <value>
+                <fullName>Property Operators and Real Estate Services</fullName>
+                <default>false</default>
+                <label>Property Operators and Real Estate Services</label>
+            </value>
+            <value>
+                <fullName>Professional, Scientific and Technical Services (Except Computer System Design and Related Services)</fullName>
+                <default>false</default>
+                <label>Professional, Scientific and Technical Services (Except Computer System Design and Related Services)</label>
+            </value>
+            <value>
+                <fullName>Computer System Design and Related Services</fullName>
+                <default>false</default>
+                <label>Computer System Design and Related Services</label>
+            </value>
+            <value>
+                <fullName>Administrative Services</fullName>
+                <default>false</default>
+                <label>Administrative Services</label>
+            </value>
+            <value>
+                <fullName>Building Cleaning, Pest Control and Other Support Services</fullName>
+                <default>false</default>
+                <label>Building Cleaning, Pest Control and Other Support Services</label>
+            </value>
+            <value>
+                <fullName>Public Administration</fullName>
+                <default>false</default>
+                <label>Public Administration</label>
+            </value>
+            <value>
+                <fullName>Defence</fullName>
+                <default>false</default>
+                <label>Defence</label>
+            </value>
+            <value>
+                <fullName>Public Order, Safety and Regulatory Services</fullName>
+                <default>false</default>
+                <label>Public Order, Safety and Regulatory Services</label>
+            </value>
+            <value>
+                <fullName>Preschool and School Education</fullName>
+                <default>false</default>
+                <label>Preschool and School Education</label>
+            </value>
+            <value>
+                <fullName>Tertiary Education</fullName>
+                <default>false</default>
+                <label>Tertiary Education</label>
+            </value>
+            <value>
+                <fullName>Adult, Community and Other Education</fullName>
+                <default>false</default>
+                <label>Adult, Community and Other Education</label>
+            </value>
+            <value>
+                <fullName>Hospitals</fullName>
+                <default>false</default>
+                <label>Hospitals</label>
+            </value>
+            <value>
+                <fullName>Medical and Other Health Care Services</fullName>
+                <default>false</default>
+                <label>Medical and Other Health Care Services</label>
+            </value>
+            <value>
+                <fullName>Residential Care Services</fullName>
+                <default>false</default>
+                <label>Residential Care Services</label>
+            </value>
+            <value>
+                <fullName>Social Assistance Services</fullName>
+                <default>false</default>
+                <label>Social Assistance Services</label>
+            </value>
+            <value>
+                <fullName>Heritage Activities</fullName>
+                <default>false</default>
+                <label>Heritage Activities</label>
+            </value>
+            <value>
+                <fullName>Creative and Performing Arts Activities</fullName>
+                <default>false</default>
+                <label>Creative and Performing Arts Activities</label>
+            </value>
+            <value>
+                <fullName>Sports and Recreation Activities</fullName>
+                <default>false</default>
+                <label>Sports and Recreation Activities</label>
+            </value>
+            <value>
+                <fullName>Gambling Activities</fullName>
+                <default>false</default>
+                <label>Gambling Activities</label>
+            </value>
+            <value>
+                <fullName>Repair and Maintenance</fullName>
+                <default>false</default>
+                <label>Repair and Maintenance</label>
+            </value>
+            <value>
+                <fullName>Personal and Other Services</fullName>
+                <default>false</default>
+                <label>Personal and Other Services</label>
+            </value>
+            <value>
+                <fullName>Private Households Employing Staff and Undifferentiated Goods- and Service-Producing Activities of Households for Own Use</fullName>
+                <default>false</default>
+                <label>Private Households Employing Staff and Undifferentiated Goods- and Service-Producing Activities of Households for Own Use</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Financial and Insurance Services</controllingFieldValue>
+            <valueName>Finance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial and Insurance Services</controllingFieldValue>
+            <valueName>Insurance and Superannuation Funds</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial and Insurance Services</controllingFieldValue>
+            <valueName>Auxiliary Finance and Insurance Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rental, Hiring and Real Estate Services</controllingFieldValue>
+            <valueName>Rental and Hiring Services (except Real Estate)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rental, Hiring and Real Estate Services</controllingFieldValue>
+            <valueName>Property Operators and Real Estate Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Professional, Scientific and Technical Services</controllingFieldValue>
+            <valueName>Professional, Scientific and Technical Services (Except Computer System Design and Related Services)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Professional, Scientific and Technical Services</controllingFieldValue>
+            <valueName>Computer System Design and Related Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Administrative and Support Services</controllingFieldValue>
+            <valueName>Administrative Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Administrative and Support Services</controllingFieldValue>
+            <valueName>Building Cleaning, Pest Control and Other Support Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Public Administration and Safety</controllingFieldValue>
+            <valueName>Public Administration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Public Administration and Safety</controllingFieldValue>
+            <valueName>Defence</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Public Administration and Safety</controllingFieldValue>
+            <valueName>Public Order, Safety and Regulatory Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Education and Training</controllingFieldValue>
+            <valueName>Preschool and School Education</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Education and Training</controllingFieldValue>
+            <valueName>Tertiary Education</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Education and Training</controllingFieldValue>
+            <valueName>Adult, Community and Other Education</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Health Care and Social Assistance</controllingFieldValue>
+            <valueName>Hospitals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Health Care and Social Assistance</controllingFieldValue>
+            <valueName>Medical and Other Health Care Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Health Care and Social Assistance</controllingFieldValue>
+            <valueName>Residential Care Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Health Care and Social Assistance</controllingFieldValue>
+            <valueName>Social Assistance Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Arts and Recreation Services</controllingFieldValue>
+            <valueName>Heritage Activities</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Arts and Recreation Services</controllingFieldValue>
+            <valueName>Creative and Performing Arts Activities</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Arts and Recreation Services</controllingFieldValue>
+            <valueName>Sports and Recreation Activities</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Arts and Recreation Services</controllingFieldValue>
+            <valueName>Gambling Activities</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Services</controllingFieldValue>
+            <valueName>Repair and Maintenance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Services</controllingFieldValue>
+            <valueName>Personal and Other Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Services</controllingFieldValue>
+            <valueName>Private Households Employing Staff and Undifferentiated Goods- and Service-Producing Activities of Households for Own Use</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agriculture, Forestry and Fishing</controllingFieldValue>
+            <valueName>Agriculture</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agriculture, Forestry and Fishing</controllingFieldValue>
+            <valueName>Aquaculture</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agriculture, Forestry and Fishing</controllingFieldValue>
+            <valueName>Forestry and Logging</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agriculture, Forestry and Fishing</controllingFieldValue>
+            <valueName>Fishing, Hunting and Trapping</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agriculture, Forestry and Fishing</controllingFieldValue>
+            <valueName>Agriculture, Forestry and Fishing Support Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mining</controllingFieldValue>
+            <valueName>Coal Mining</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mining</controllingFieldValue>
+            <valueName>Oil and Gas Extraction</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mining</controllingFieldValue>
+            <valueName>Metal Ore Mining</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mining</controllingFieldValue>
+            <valueName>Non-Metallic Mineral Mining and Quarrying</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mining</controllingFieldValue>
+            <valueName>Exploration and Other Mining Support Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing</controllingFieldValue>
+            <valueName>Food Product Manufacturing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing</controllingFieldValue>
+            <valueName>Beverage and Tobacco Product Manufacturing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing</controllingFieldValue>
+            <valueName>Textile, Leather, Clothing and Footwear Manufacturing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing</controllingFieldValue>
+            <valueName>Wood Product Manufacturing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing</controllingFieldValue>
+            <valueName>Pulp, Paper and Converted Paper Product Manufacturing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing</controllingFieldValue>
+            <valueName>Printing (including the Reproduction of Recorded Media)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing</controllingFieldValue>
+            <valueName>Petroleum and Coal Product Manufacturing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing</controllingFieldValue>
+            <valueName>Basic Chemical and Chemical Product Manufacturing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing</controllingFieldValue>
+            <valueName>Polymer Product and Rubber Product Manufacturing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing</controllingFieldValue>
+            <valueName>Non-Metallic Mineral Product Manufacturing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing</controllingFieldValue>
+            <valueName>Primary Metal and Metal Product Manufacturing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing</controllingFieldValue>
+            <valueName>Fabricated Metal Product Manufacturing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing</controllingFieldValue>
+            <valueName>Transport Equipment Manufacturing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing</controllingFieldValue>
+            <valueName>Machinery and Equipment Manufacturing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing</controllingFieldValue>
+            <valueName>Furniture and Other Manufacturing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Electricity, Gas, Water and Waste Services</controllingFieldValue>
+            <valueName>Electricity Supply</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Electricity, Gas, Water and Waste Services</controllingFieldValue>
+            <valueName>Gas Supply</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Electricity, Gas, Water and Waste Services</controllingFieldValue>
+            <valueName>Water Supply, Sewerage and Drainage Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Electricity, Gas, Water and Waste Services</controllingFieldValue>
+            <valueName>Waste Collection, Treatment and Disposal Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Construction</controllingFieldValue>
+            <valueName>Building Construction</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Construction</controllingFieldValue>
+            <valueName>Heavy and Civil Engineering Construction</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Construction</controllingFieldValue>
+            <valueName>Construction Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Construction</controllingFieldValue>
+            <controllingFieldValue>Wholesale Trade</controllingFieldValue>
+            <valueName>Basic Material Wholesaling</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Construction</controllingFieldValue>
+            <controllingFieldValue>Wholesale Trade</controllingFieldValue>
+            <valueName>Machinery and Equipment Wholesaling</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Construction</controllingFieldValue>
+            <controllingFieldValue>Wholesale Trade</controllingFieldValue>
+            <valueName>Motor Vehicle and Motor Vehicle Parts Wholesaling</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Construction</controllingFieldValue>
+            <controllingFieldValue>Wholesale Trade</controllingFieldValue>
+            <valueName>Grocery, Liquor and Tobacco Product Wholesaling</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Construction</controllingFieldValue>
+            <controllingFieldValue>Wholesale Trade</controllingFieldValue>
+            <valueName>Other Goods Wholesaling</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Construction</controllingFieldValue>
+            <controllingFieldValue>Wholesale Trade</controllingFieldValue>
+            <valueName>Commission-Based Wholesaling</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Construction</controllingFieldValue>
+            <controllingFieldValue>Retail Trade</controllingFieldValue>
+            <valueName>Motor Vehicle and Motor Vehicle Parts Retailing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Construction</controllingFieldValue>
+            <controllingFieldValue>Retail Trade</controllingFieldValue>
+            <valueName>Food Retailing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Construction</controllingFieldValue>
+            <controllingFieldValue>Retail Trade</controllingFieldValue>
+            <valueName>Other Store-Based Retailing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Construction</controllingFieldValue>
+            <controllingFieldValue>Retail Trade</controllingFieldValue>
+            <valueName>Non-Store Retailing and Retail Commission-Based Buying and/or Selling</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Accommodation and Food Services</controllingFieldValue>
+            <valueName>Accommodation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Accommodation and Food Services</controllingFieldValue>
+            <valueName>Food and Beverage Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transport, Postal and Warehousing</controllingFieldValue>
+            <valueName>Road Transport</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transport, Postal and Warehousing</controllingFieldValue>
+            <valueName>Rail Transport</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transport, Postal and Warehousing</controllingFieldValue>
+            <valueName>Water Transport</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transport, Postal and Warehousing</controllingFieldValue>
+            <valueName>Air and Space Transport</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transport, Postal and Warehousing</controllingFieldValue>
+            <valueName>Other Transport</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transport, Postal and Warehousing</controllingFieldValue>
+            <valueName>Postal and Courier Pick-up and Delivery Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transport, Postal and Warehousing</controllingFieldValue>
+            <valueName>Transport Support Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transport, Postal and Warehousing</controllingFieldValue>
+            <valueName>Warehousing and Storage Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Information Media and Telecommunications</controllingFieldValue>
+            <valueName>Publishing (except Internet and Music Publishing)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Information Media and Telecommunications</controllingFieldValue>
+            <valueName>Motion Picture and Sound Recording Activities</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Information Media and Telecommunications</controllingFieldValue>
+            <valueName>Broadcasting (except Internet)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Information Media and Telecommunications</controllingFieldValue>
+            <valueName>Internet Publishing and Broadcasting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Information Media and Telecommunications</controllingFieldValue>
+            <valueName>Telecommunications Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Information Media and Telecommunications</controllingFieldValue>
+            <valueName>Internet Service Providers, Web Search Portals and Data Processing Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Information Media and Telecommunications</controllingFieldValue>
+            <valueName>Library and Other Information Services</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

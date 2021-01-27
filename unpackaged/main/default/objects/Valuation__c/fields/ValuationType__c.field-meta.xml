@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ValuationType__c</fullName>
+    <externalId>false</externalId>
+    <label>Valuation Type</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AVM Soft</fullName>
+                <default>false</default>
+                <label>AVM Soft</label>
+            </value>
+            <value>
+                <fullName>AVM</fullName>
+                <default>false</default>
+                <label>AVM</label>
+            </value>
+            <value>
+                <fullName>Desktop Valuation</fullName>
+                <default>false</default>
+                <label>Desktop Valuation</label>
+            </value>
+            <value>
+                <fullName>Full Valuation</fullName>
+                <default>false</default>
+                <label>Full Valuation</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

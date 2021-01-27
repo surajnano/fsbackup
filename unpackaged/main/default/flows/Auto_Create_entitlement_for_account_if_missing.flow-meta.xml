@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>49.0</apiVersion>
+    <decisions>
+        <description>Decides if an account doesn&apos;t have an entitlement and therefore needs one created</description>
+        <name>Account_needs_an_Entitlement</name>
+        <label>Account needs an Entitlement?</label>
+        <locationX>602</locationX>
+        <locationY>320</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Needs_an_Entitlement</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>FoundEntitlement.Id</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Get_Entitlement_Process</targetReference>
+            </connector>
+            <label>Needs an Entitlement</label>
+        </rules>
+    </decisions>
+    <description>Checks if the account has an entitlement, and if not creates one using the active entitlement process and business hours</description>
+    <formulas>
+        <name>EntitlementName</name>
+        <dataType>String</dataType>
+        <expression>{!$Record.Name}+{!$Record.FirstName} + {!$Record.LastName}+&quot; Support Entitlement&quot;</expression>
+    </formulas>
+    <interviewLabel>Auto Create entitlement for account if missing {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Auto Create entitlement for account if missing</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordCreates>
+        <description>Creates an entitlement Record for the customer</description>
+        <name>Create_Entitlement</name>
+        <label>Create Entitlement</label>
+        <locationX>1002</locationX>
+        <locationY>537</locationY>
+        <inputAssignments>
+            <field>AccountId</field>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>BusinessHoursId</field>
+            <value>
+                <elementReference>Get_Business_Hours.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Name</field>
+            <value>
+                <elementReference>EntitlementName</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>SlaProcessId</field>
+            <value>
+                <elementReference>Get_Entitlement_Process.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>StartDate</field>
+            <value>
+                <elementReference>$Flow.CurrentDateTime</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Type</field>
+            <value>
+                <stringValue>Support</stringValue>
+            </value>
+        </inputAssignments>
+        <object>Entitlement</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <recordLookups>
+        <description>Checks the for an entitlement related to the account</description>
+        <name>Check_for_entitlement</name>
+        <label>Check for entitlement</label>
+        <locationX>610</locationX>
+        <locationY>126</locationY>
+        <assignNullValuesIfNoRecordsFound>true</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Account_needs_an_Entitlement</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>AccountId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </filters>
+        <object>Entitlement</object>
+        <outputAssignments>
+            <assignToReference>FoundEntitlement.Id</assignToReference>
+            <field>Id</field>
+        </outputAssignments>
+        <sortField>Id</sortField>
+        <sortOrder>Asc</sortOrder>
+    </recordLookups>
+    <recordLookups>
+        <description>Retrieves the business hours</description>
+        <name>Get_Business_Hours</name>
+        <label>Get Business Hours</label>
+        <locationX>1001</locationX>
+        <locationY>317</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Create_Entitlement</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>IsActive</field>
+            <operator>EqualTo</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>BusinessHours</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <description>Retrieves the active entitlement process</description>
+        <name>Get_Entitlement_Process</name>
+        <label>Get Entitlement Process</label>
+        <locationX>841</locationX>
+        <locationY>317</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Get_Business_Hours</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>IsActive</field>
+            <operator>EqualTo</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>SlaProcess</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <start>
+        <locationX>160</locationX>
+        <locationY>59</locationY>
+        <connector>
+            <targetReference>Check_for_entitlement</targetReference>
+        </connector>
+        <object>Account</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Draft</status>
+    <variables>
+        <name>FoundEntitlement</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Entitlement</objectType>
+    </variables>
+</Flow>

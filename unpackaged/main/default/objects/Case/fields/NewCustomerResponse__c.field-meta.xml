@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NewCustomerResponse__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Flag to indicate an email has been received on the case - Unflags when there is an edit on the case</description>
+    <externalId>false</externalId>
+    <label>New Customer Response</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

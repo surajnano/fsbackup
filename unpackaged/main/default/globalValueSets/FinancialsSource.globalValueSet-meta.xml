@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Bank</fullName>
+        <default>false</default>
+        <label>Bank</label>
+    </customValue>
+    <customValue>
+        <fullName>Client</fullName>
+        <default>false</default>
+        <label>Client</label>
+    </customValue>
+    <customValue>
+        <fullName>Bureau</fullName>
+        <default>false</default>
+        <label>Bureau</label>
+    </customValue>
+    <customValue>
+        <fullName>Ops</fullName>
+        <default>false</default>
+        <label>Ops</label>
+    </customValue>
+    <masterLabel>Financials Source</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

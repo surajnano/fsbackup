@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Principal and Interest</fullName>
+        <default>false</default>
+        <label>Principal and Interest</label>
+    </customValue>
+    <customValue>
+        <fullName>Interest Only</fullName>
+        <default>false</default>
+        <label>Interest Only</label>
+    </customValue>
+    <masterLabel>Repayment Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

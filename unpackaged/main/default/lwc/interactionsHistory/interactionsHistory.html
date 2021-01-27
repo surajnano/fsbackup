@@ -1,0 +1,103 @@
+<!--
+ - Created by Muhammad on 24/11/20.
+ -->
+
+<!-- Interactions History -->
+<template>
+    <div class="slds-box slds-page-header">
+        <lightning-accordion class="example-accordion"
+                             onsectiontoggle={handleToggleSection}
+                             allow-multiple-sections-open>
+            <lightning-accordion-section name="A" label="Interactions History">
+                <ul class='firstList' aria-describedby="entity-header">
+                    <template if:true={recordId}>
+                        <template for:each={cases} for:item="c">
+                            <template if:true={c.isCase}>
+                                <li key={c.sobjectAny.Id} onclick={caseClicked} data-id={c.sobjectAny.Id}
+                                    class="slds-nav-vertical__item"> <span
+                                        style="font-size:14.0pt;font-family:Wingdings;">1</span>
+                                    <b> Case [Created: {c.sobjectAny.CreatedDate}] [Closed
+                                        {c.sobjectAny.ClosedDate}]</b>
+                                    <ul class="secondList" aria-describedby="entity-header">
+                                        <template if:true={c.relatedListRecords}>
+                                            <template for:each={c.relatedListRecords} for:item="listRecord">
+                                                <template if:true={listRecord.isEmail}>
+                                                    <template if:false={listRecord.record.Incoming}>
+                                                        <li key={listRecord.record.Id} onclick={caseClicked}
+                                                            data-id={listRecord.record.Id}
+                                                            class="slds-nav-vertical__item">
+                                                            <span style="font-size:14.0pt;font-family:Wingdings">*</span>
+                                                            Outbound Email: [ {listRecord.record.CreatedDate} ]
+                                                        </li>
+                                                    </template>
+                                                    <template if:true={listRecord.record.Incoming}>
+                                                        <li key={listRecord.record.Id} data-id={listRecord.record.Id}
+                                                            onclick={caseClicked}
+                                                            class="slds-nav-vertical__item">
+                                                            <span style="font-size:14.0pt;font-family:Wingdings">*</span>
+                                                            Inbound Email: [ {listRecord.record.CreatedDate} ]
+                                                        </li>
+                                                    </template>
+                                                </template>
+                                                <template if:true={listRecord.isLiveChat}>
+                                                    <li key={listRecord.record.Id} onclick={caseClicked}
+                                                        data-id={listRecord.record.Id}
+                                                        class="slds-nav-vertical__item">
+                                                        <span style="font-size:14.0pt;font-family:Webdings">(</span>
+                                                        Chat: [ {listRecord.record.CreatedDate} ]
+                                                    </li>
+                                                </template>
+                                                <template if:true={listRecord.isVoiceCall}>
+                                                    <li key={listRecord.record.Id} onclick={caseClicked}
+                                                        data-id={listRecord.record.Id}
+                                                        class="slds-nav-vertical__item">
+                                                        <span style="font-size:14.0pt;font-family:Wingdings;">(</span>
+                                                        Call: [ {listRecord.record.CreatedDate} ]
+                                                    </li>
+                                                </template>
+                                            </template>
+                                        </template>
+                                    </ul>
+                                </li>
+                            </template>
+                            <template if:true={c.isEmail}>
+                                <template if:false={c.sobjectAny.Incoming}>
+                                    <li key={c.sobjectAny.Id} onclick={caseClicked}
+                                        data-id={c.sobjectAny.Id}
+                                        class="slds-nav-vertical__item">
+                                        <span style="font-size:14.0pt;font-family:Wingdings">*</span> <b> Outbound
+                                        Email: [ {c.sobjectAny.CreatedDate} ]</b>
+                                    </li>
+                                </template>
+                                <template if:true={c.sobjectAny.Incoming}>
+                                    <li key={c.sobjectAny.Id} data-id={c.sobjectAny.Id}
+                                        onclick={caseClicked}
+                                        class="slds-nav-vertical__item">
+                                        <span style="font-size:14.0pt;font-family:Wingdings">*</span> <b> Inbound Email:
+                                        [ {c.sobjectAny.CreatedDate} ]</b>
+                                    </li>
+                                </template>
+                            </template>
+                            <template if:true={c.isLiveChat}>
+                                <li key={c.sobjectAny.Id} onclick={caseClicked}
+                                    data-id={c.sobjectAny.Id}
+                                    class="slds-nav-vertical__item">
+                                    <span style="font-size:14.0pt;font-family:Webdings">(</span> <b> Chat: [
+                                    {c.sobjectAny.CreatedDate} ]</b>
+                                </li>
+                            </template>
+                            <template if:true={c.isVoiceCall}>
+                                <li key={c.sobjectAny.Id} onclick={caseClicked}
+                                    data-id={c.sobjectAny.Id}
+                                    class="slds-nav-vertical__item">
+                                    <span style="font-size:14.0pt;font-family:Wingdings;">(</span> <b> Call: [
+                                    {c.sobjectAny.CreatedDate} ]</b>
+                                </li>
+                            </template>
+                        </template>
+                    </template>
+                </ul>
+            </lightning-accordion-section>
+        </lightning-accordion>
+    </div>
+</template>

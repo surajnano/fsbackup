@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmbeddedServiceLiveAgent xmlns="http://soap.sforce.com/2006/04/metadata">
+    <avatarImg>https://dev-apply.verteva.com.au/images/Nano_ChatProfile.png</avatarImg>
+    <embeddedServiceConfig>Chat_Support</embeddedServiceConfig>
+    <embeddedServiceQuickActions>
+        <embeddedServiceLiveAgent>EmbeddedServiceLiveAgent_Parent04I0l00000000A6EAI_1754d45a2af</embeddedServiceLiveAgent>
+        <order>1</order>
+        <quickActionDefinition>Snapins_Case_OfflineCaseQuickAction_08h0l0000000064_1603319222943</quickActionDefinition>
+        <quickActionType>OfflineCase</quickActionType>
+    </embeddedServiceQuickActions>
+    <embeddedServiceQuickActions>
+        <embeddedServiceLiveAgent>EmbeddedServiceLiveAgent_Parent04I0l00000000A6EAI_1754d45a2af</embeddedServiceLiveAgent>
+        <order>1</order>
+        <quickActionDefinition>Snapins_Lead_PrechatQuickAction_08h0l0000000064_1607052241389</quickActionDefinition>
+        <quickActionType>Prechat</quickActionType>
+    </embeddedServiceQuickActions>
+    <enabled>true</enabled>
+    <fontSize>Medium</fontSize>
+    <isOfflineCaseEnabled>true</isOfflineCaseEnabled>
+    <isQueuePositionEnabled>false</isQueuePositionEnabled>
+    <liveChatButton>Chat_Support_Team</liveChatButton>
+    <liveChatDeployment>live_agent_setup_flow</liveChatDeployment>
+    <masterLabel>EmbeddedServiceLiveAgent_Parent04I0l00000000A6EAI_1754d45a2af</masterLabel>
+    <prechatEnabled>true</prechatEnabled>
+    <scenario>Sales</scenario>
+</EmbeddedServiceLiveAgent>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <activeVersionNumber>36</activeVersionNumber>
+    <description>A default flow to create an APS record against a new disbursed Loan Account.</description>
+    <masterLabel>Automated Payment Set Up Record Creation</masterLabel>
+</FlowDefinition>

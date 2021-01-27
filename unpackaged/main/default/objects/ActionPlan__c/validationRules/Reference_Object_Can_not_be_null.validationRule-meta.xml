@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reference_Object_Can_not_be_null</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(  
+OR( Lead__c == null,  Lead__c == '' ),
+OR( Account__c == null,  Account__c == '' ),
+OR( Contact__c == null,  Contact__c == '' ),
+OR( Opportunity__c == null,  Opportunity__c == '' ),
+OR( Case__c == null,  Case__c == '' ),
+OR( Contract__c == null,  Contract__c == '' ),
+OR( Campaign__c == null,  Campaign__c == '' )
+ )</errorConditionFormula>
+    <errorMessage>You must relate the Action Plan to an object.  Select the type and the object, then save again.</errorMessage>
+</ValidationRule>

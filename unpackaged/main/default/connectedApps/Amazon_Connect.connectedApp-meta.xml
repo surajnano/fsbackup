@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>diego.carbonetti+verteva.shareddev@8squad.com.au</contactEmail>
+    <label>Amazon Connect</label>
+    <oauthConfig>
+        <callbackUrl>http://localhost:1717/OauthRedirect</callbackUrl>
+        <certificate>MIIC1jCCAb4CCQCnqj8POFU0jzANBgkqhkiG9w0BAQsFADAtMQswCQYDVQQGEwJBVTEMMAoGA1UECAwDTlNXMRAwDgYDVQQKDAdWZXJ0ZXZhMB4XDTIwMTAxMzAyMjkwM1oXDTIxMTAxMzAyMjkwM1owLTELMAkGA1UEBhMCQVUxDDAKBgNVBAgMA05TVzEQMA4GA1UECgwHVmVydGV2YTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANAoRQW9m0YKr5YC/PIQ/+cJ3koyg+woq1WNNPZqo2FsBlAJgdsOgXQISi0ytwm/dPbrvUoD3MsljWOimXhRO1tdNCjzYSHRWmR30Jm5mD5ZjGbxs1nGi8KXEeIzPZ42eZIJqJoHjvBS0AK8fmkkYIe74b9Rnk3OnimlOKskxvgUjU3WDM5grBHS+w0f38QkUhkV7m1OYT3Fc+sG8ejBbUitU9I2CAp5Rz1WuUkf3dz9DAI+zjDYzUWTdpO+gvAUzSAJNSk7i4J/KHO5NsHzIIV/dtW2BKcAu7EBFps/BRvKu02lYqA18d+v0WGhggFp1wVVgFtxrJC7xVjaq7UHH5MCAwEAATANBgkqhkiG9w0BAQsFAAOCAQEAG1q/c9diZ5ScZHtCiwofpMYcPCflkFvaGpkexnwsrDTwK6gKinc9moL357e2LsHJQ7IBptAhG47czdTaFrL5TTA59kztDh4lQy84WX5NYLl70pW7/Gtna64zoB1MtImOYRIWxKWuDNdBm//Mjzl1/dhTzntDmvBdsTugcCrgramnuRoTpUt1nxN521vyja8T7HjAQO4IpsQ389mN94u3NMu4RKJZI8nO26ABtjtqxNNn6osneeCOrH3gjQOQyBFsog1zDMS5IFF90AwB7/ftcVGNTYofJDoYTviPVw+ddHDojl/YLIE+qZke3t8hyP22QNi5I7B6ZS7ueqjaMYdGyQ==</certificate>
+        <consumerKey>3MVG99S6MzYiT5k96_V9nDaYqEkkw0Dl1sPC3OT0s8PkPLNgyEIzbZyMppOM50f4hM8wDFCMcJH_c_2KNI9dI</consumerKey>
+        <isAdminApproved>true</isAdminApproved>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+    <permissionSetName>Amazon Connect Integration User</permissionSetName>
+</ConnectedApp>

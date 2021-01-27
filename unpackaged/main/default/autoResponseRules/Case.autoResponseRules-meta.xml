@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?><AutoResponseRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <autoResponseRule>
+        <fullName>Feedback Autoresponse</fullName>
+        <active>false</active>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email - App</value>
+            </criteriaItems>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <senderEmail>diego.carbonetti+no-reply@8squad.com.au</senderEmail>
+            <senderName>Nano</senderName>
+            <template>Case_Autoresponse/appfeedback_Autoresponse</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email - Help,Email - Info</value>
+            </criteriaItems>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <senderEmail>diego.carbonetti+no-reply@8squad.com.au</senderEmail>
+            <senderName>No Reply</senderName>
+            <template>Case_Autoresponse/help_info_Autoresponse</template>
+        </ruleEntry>
+    </autoResponseRule>
+</AutoResponseRules>

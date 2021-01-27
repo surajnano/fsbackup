@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Delete_Action_Plans</fullName>
+    <availability>online</availability>
+    <displayType>massActionButton</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Delete Action Plans</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <requireRowSelection>true</requireRowSelection>
+    <url>var records = {!GETRECORDIDS( $ObjectType.ActionPlan__c)} ;
+		var error = false;
+		var msj = '';
+		
+		if( records.length &gt; 65 ) { 
+		    error = true; 
+		    msj ='{!$Label.ap_Errors_moreThan200records}';
+		}
+		
+		if( records.length &lt; 1 ){
+		   error = true;
+		   msj = '{!$Label.ap_Errors_selectOneRecord}'; 
+		}
+		
+		if( error ) {
+			alert(msj);    
+		}
+		else{
+			if(confirm('{!$Label.ap_Confirm_Action_Plan_Deletion}')){
+				// Deletion should be done with ajax toolkit. 
+				// connection.js was not included correctly always getting the error: sforce is undefined
+				location.href = '/apex/ActionPlansDelete?records='+records+'&amp;retURL='+window.location;
+			}
+		}</url>
+</WebLink>

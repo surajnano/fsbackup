@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?><Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Update_Identity_Status</fullName>
+        <field>Identity_Status__c</field>
+        <formula>IF(AND(ISBlank(Text(IdentityResultKYC__c)),ISBlank(TEXT(IdentityResultAML__c)),ISBlank(TEXT(IdentityResultVOI__c))),'',
+IF(Text(IdentityResultKYC__c) = 'FAIL', 'Failed KYC',
+IF(Text(IdentityResultAML__c) = 'FAIL', 'Failed AML',
+IF(Text(IdentityResultVOI__c) = 'FAIL', 'Failed VOI',
+IF(Text(IdentityResultAML__c) = 'PASS'  &amp;&amp; ISCHANGED(IdentityResultAML__c) &amp;&amp; NOT(ISCHANGED(IdentityResultVOI__c)) , 'Pending VOI',
+IF(Text(IdentityResultVOI__c) = 'PASS', 'All Passed', Application__r.Identity_Status__c 
+))))))</formula>
+        <name>Update Identity Status</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+        <targetObject>Application__c</targetObject>
+    </fieldUpdates>
+    <rules>
+        <fullName>Update Identity Status in Application</fullName>
+        <actions>
+            <name>Update_Identity_Status</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>OR(ISCHANGED(IdentityResultKYC__c), ISCHANGED(IdentityResultAML__c), ISCHANGED(IdentityResultVOI__c ))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Title_of_Account__c</fullName>
+    <description>All coded character set valid. Must not be all blanks.
+Left justified, blank filled. Desirable format:
+- surname (period)
+ blank
+- given names with blank between each name</description>
+    <externalId>false</externalId>
+    <inlineHelpText>All coded character set valid. Must not be all blanks.
+Left justified, blank filled. Desirable format:
+- surname (period)
+ blank
+- given names with blank between each name</inlineHelpText>
+    <label>Title of Account</label>
+    <length>32</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

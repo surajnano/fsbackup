@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reel_Sequence_Number__c</fullName>
+    <description>Must be 01.
+Right justified. Zero filled</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Must be 01.
+Right justified. Zero filled</inlineHelpText>
+    <label>Reel Sequence Number</label>
+    <length>2</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

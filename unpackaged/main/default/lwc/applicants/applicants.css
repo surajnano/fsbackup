@@ -1,0 +1,8 @@
+.applicant-button {
+    width: 140px;
+    padding: 0;
+}
+.slot-buttons {
+    display: inline-flex; 
+    padding-left: .3em;
+}

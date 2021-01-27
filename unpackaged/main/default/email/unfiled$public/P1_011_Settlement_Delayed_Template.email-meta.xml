@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Custom email template designed for P1-011</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>P1_011 Settlement Delayed Template</name>
+    <style>none</style>
+    <subject>An update on your Nano home loan</subject>
+    <textOnly>Your Nano home loan settlement is delayed
+
+{!LEFT(Contact.FirstName,1) + LOWER(RIGHT(Contact.FirstName,LEN(Contact.FirstName)-1))},
+We are confirming your request to delay the settlement of your Nano home loan.
+
+When you are ready to proceed with settlement, you can reply to this email or call me on 13 NANO (13 6266).
+
+{!Case.OwnerFullName}
+Nano Customer Support
+
+CONTACT US
+13 NANO (13 6266) •  help@nano.com.au
+
+©2020 Nano Lending Pty Ltd
+ABN 85 628 608 391. Australian Credit Licence 511406.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CallCenter xmlns="http://soap.sforce.com/2006/04/metadata">
+    <adapterUrl>https://verteva--shareddev.my.salesforce.com/hvcc/amz/index.html</adapterUrl>
+    <customSettings>{&quot;reqTimeout&quot;:&quot;5000&quot;,&quot;reqCallCenterType&quot;:&quot;SCVOOTBTelephony&quot;,&quot;reqStandbyUrl&quot;:&quot;https://domain:port/softphone&quot;,&quot;reqSoftphoneHeight&quot;:&quot;300&quot;,&quot;reqUseApi&quot;:&quot;true&quot;,&quot;reqSoftphoneWidth&quot;:&quot;500&quot;,&quot;reqSalesforceCompatibilityMode&quot;:&quot;Lightning&quot;}</customSettings>
+    <displayName>Service Cloud Voice</displayName>
+    <displayNameLabel>Display Name</displayNameLabel>
+    <internalNameLabel>Internal Name</internalNameLabel>
+    <sections>
+        <items>
+            <label>CTI Adapter URL</label>
+            <name>reqAdapterUrl</name>
+            <value>https://verteva--shareddev.my.salesforce.com/hvcc/amz/index.html</value>
+        </items>
+        <items>
+            <label>Use CTI API</label>
+            <name>reqUseApi</name>
+            <value>true</value>
+        </items>
+        <items>
+            <label>Softphone Height</label>
+            <name>reqSoftphoneHeight</name>
+            <value>300</value>
+        </items>
+        <items>
+            <label>Softphone Width</label>
+            <name>reqSoftphoneWidth</name>
+            <value>500</value>
+        </items>
+        <items>
+            <label>Salesforce Compatibility Mode</label>
+            <name>reqSalesforceCompatibilityMode</name>
+            <value>Lightning</value>
+        </items>
+        <label>General Information</label>
+        <name>reqGeneralInfo</name>
+    </sections>
+    <sections>
+        <items>
+            <label>Telephony Provider</label>
+            <name>reqTelephonyProvider</name>
+            <value>AMAZON_CONNECT</value>
+        </items>
+        <items>
+            <label>Instance Name</label>
+            <name>reqInstanceName</name>
+            <value>ServiceCloudVoice00D0l000000DmEJ</value>
+        </items>
+        <items>
+            <label>Relay State</label>
+            <name>reqRelayState</name>
+            <value>https://ap-southeast-2.console.aws.amazon.com/connect/federate/e57d956c-b7fb-46d0-89b6-485b87ad3570</value>
+        </items>
+        <items>
+            <label>Identity URL</label>
+            <name>reqIdentityUrl</name>
+            <value>https://verteva--shareddev.my.salesforce.com/idp/login?app=0sp0l000000006T</value>
+        </items>
+        <items>
+            <label>Telephony Integration Certificate</label>
+            <name>reqTelephonyIntegrationCertificate</name>
+            <value>-----BEGIN CERTIFICATE-----
+MIIEgTCCA2mgAwIBAgIOAXT7Xxm/AAAAABIf0hcwDQYJKoZIhvcNAQELBQAwgYIx
+GjAYBgNVBAMMEVNlcnZpY2VDbG91ZFZvaWNlMRgwFgYDVQQLDA8wMEQwbDAwMDAw
+MERtRUoxFzAVBgNVBAoMDlNhbGVzZm9yY2UuY29tMRYwFAYDVQQHDA1TYW4gRnJh
+bmNpc2NvMQswCQYDVQQIDAJDQTEMMAoGA1UEBhMDVVNBMB4XDTIwMTAwNjAwNDU0
+N1oXDTIxMTAwNjAwMDAwMFowgYIxGjAYBgNVBAMMEVNlcnZpY2VDbG91ZFZvaWNl
+MRgwFgYDVQQLDA8wMEQwbDAwMDAwMERtRUoxFzAVBgNVBAoMDlNhbGVzZm9yY2Uu
+Y29tMRYwFAYDVQQHDA1TYW4gRnJhbmNpc2NvMQswCQYDVQQIDAJDQTEMMAoGA1UE
+BhMDVVNBMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoZuxQ+j2rNZC
+T1F1n128cxzcEbRlzInY5xGWFiMBIGwrvMlQegKyDoK5U2S0Lo/ye0fDGo26G4Fv
+Di/c++4ORysfl/dMzBVOsXEObsgl4+aRkaIACyWl9cTqo/RCifCBbhulKUbQmCSd
+Eh37VApsvkQorhDWCrUM23QDNCOOq66fDRibMrLYrYUJtnfN/IUimNM/dsRPaQ+j
+nCN6n4y6PsT9ABurJbrKNKIOYP1Q8xH6iJBppwijdpBSeahcP84O9iQic3P/3vmD
+Tjhx4TOMdTx8Ks0ZpqKsAorUPdL3HxZ/eU3+2+9xngP/SOmUd9UyxcxhSwEu2r3/
+qzifEycuMQIDAQABo4HyMIHvMB0GA1UdDgQWBBSGLizmUCrV2d+7x/vvvzIMpRDY
+BzAPBgNVHRMBAf8EBTADAQH/MIG8BgNVHSMEgbQwgbGAFIYuLOZQKtXZ37vH+++/
+MgylENgHoYGIpIGFMIGCMRowGAYDVQQDDBFTZXJ2aWNlQ2xvdWRWb2ljZTEYMBYG
+A1UECwwPMDBEMGwwMDAwMDBEbUVKMRcwFQYDVQQKDA5TYWxlc2ZvcmNlLmNvbTEW
+MBQGA1UEBwwNU2FuIEZyYW5jaXNjbzELMAkGA1UECAwCQ0ExDDAKBgNVBAYTA1VT
+QYIOAXT7Xxm/AAAAABIf0hcwDQYJKoZIhvcNAQELBQADggEBAATd9rxJ3MS6gIV/
+MhXkD6mb+lFnF260HvLoY6fO8t+YuNgBiCPFQOTJZc3z+9WezL1TsL3j99o7z/Pu
+t5GD9TC0bdEiSZ8b4WmLDa1argVZ7ywVxlvTp60NWSjozqIy5ACHvhLLF3ux5S92
+hesnE3VlKwq10pCiN2U+s4lsHQ/dXQxkXwWW2atbkfFj0w5XZq/SVFOvmpozsFG/
+YYXTgH8meWIB+cj5Wl77DWr3wo2O34F/fiJotXJnZkvKu6WWlw43Ih+LKLOfDJ2y
+xS9s+D7FMFVHKrWN4aHUUwPoxB7FxIu5pl7KfK84FC/Hb8sPqUsEKFi+Cg0sz9IF
+m1pqOuw=
+-----END CERTIFICATE-----</value>
+        </items>
+        <items>
+            <label>Region</label>
+            <name>reqRegion</name>
+            <value>ap-southeast-2</value>
+        </items>
+        <items>
+            <label>Connected App Id</label>
+            <name>reqConnectedAppId</name>
+            <value>0H40l0000004dgl</value>
+        </items>
+        <items>
+            <label>Instance Id</label>
+            <name>reqInstanceId</name>
+            <value>e57d956c-b7fb-46d0-89b6-485b87ad3570</value>
+        </items>
+        <items>
+            <label>Instance Service Role</label>
+            <name>reqInstanceServiceRole</name>
+            <value>arn:aws:iam::871228037887:role/aws-service-role/connect.amazonaws.com/AWSServiceRoleForAmazonConnect_cQaxxKCcn7177VzFz6cW</value>
+        </items>
+        <items>
+            <label>Settings Relay State</label>
+            <name>reqSettingsRelayState</name>
+            <value>https://ap-southeast-2.console.aws.amazon.com/connect/federate/e57d956c-b7fb-46d0-89b6-485b87ad3570</value>
+        </items>
+        <items>
+            <label>Stack Id</label>
+            <name>reqStackId</name>
+            <value>arn:aws:cloudformation:ap-southeast-2:871228037887:stack/ServiceCloudVoice-SCVContactCenterStack/472ad070-076d-11eb-ad32-0a8a4092de5e</value>
+        </items>
+        <items>
+            <label>Long Distance Prefix</label>
+            <name>reqLongDistPrefix</name>
+            <value>+61</value>
+        </items>
+        <label>Service Voice Settings</label>
+        <name>reqHvcc</name>
+    </sections>
+</CallCenter>

@@ -1,0 +1,18 @@
+[
+  {
+    "accountingRuleName": "Loan Disbursement",
+    "accountingSourceCriteria": "loan__Internal_Accounting_Generated__c = false AND loan__Distribution_Type__c = 'Disbursement'",
+    "accountingCompletionIdentifier": "loan__Internal_Accounting_Generated__c",
+    "accountingRuleLines": [
+      {
+        "debitGLAccount": "30300",
+        "creditGLAccount": "30040",
+        "amountFieldAPIName": "loan__Distribution_Amount__c",
+        "accountingRuleLineName": "Loan Disbursal",
+        "txnDateFieldAPIName": "loan__Transaction_Date__c",
+        "txnValueDateFieldAPIName": "loan__Transaction_Date__c"
+      }
+    ],
+    "accountingEventName": "loan__Disbursal_Txn_Distribution__c"
+  }
+]

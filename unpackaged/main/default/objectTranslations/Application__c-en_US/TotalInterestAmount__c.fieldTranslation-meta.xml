@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Total interest payable over the term of the loan --></help>
+        <label><!-- Total Interest Amount --></label>
+        <name>TotalInterestAmount__c</name>
+    </CustomFieldTranslation>

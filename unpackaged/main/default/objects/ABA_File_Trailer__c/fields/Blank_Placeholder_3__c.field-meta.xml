@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Blank_Placeholder_3__c</fullName>
+    <description>Must be blank filled.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Must be blank filled.</inlineHelpText>
+    <label>Blank Placeholder 3</label>
+    <length>40</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

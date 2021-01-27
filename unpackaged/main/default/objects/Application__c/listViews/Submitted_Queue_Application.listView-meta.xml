@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Submitted_Queue_Application</fullName>
+    <columns>NAME</columns>
+    <columns>Account__c</columns>
+    <columns>JointSingle__c</columns>
+    <columns>LoanAmount__c</columns>
+    <columns>PropertyValue__c</columns>
+    <columns>Decision__c</columns>
+    <filterScope>Queue</filterScope>
+    <label>Submitted Queue</label>
+    <queue>Submitted_Queue</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

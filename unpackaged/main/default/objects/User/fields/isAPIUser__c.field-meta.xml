@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>isAPIUser__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Check for API only users ( such as heroku conect )</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check for API only users ( such as heroku conect )</inlineHelpText>
+    <label>API User</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

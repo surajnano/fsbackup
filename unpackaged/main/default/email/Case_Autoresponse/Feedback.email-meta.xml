@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Feedback</name>
+    <style>none</style>
+    <subject>Thank you for your feedback</subject>
+    <textOnly>Thank you for taking the time to provide us with your feedback on the Nano App. This is valuable to ensure we continue to offer you the best possible experience.
+
+We review all of the feedback we receive and will reach out if there is an opportunity to discuss further.
+
+If you need to speak to us, please call 13NANO (13 6266). Our business hours are Monday to Friday from 8:30am - 5:30pm AEDT.
+
+
+Nano Customer Support
+nano.com.au</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

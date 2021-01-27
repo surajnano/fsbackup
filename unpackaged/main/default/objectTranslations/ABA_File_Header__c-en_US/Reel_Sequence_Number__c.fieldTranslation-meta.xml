@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Must be 01.
+Right justified. Zero filled --></help>
+        <label><!-- Reel Sequence Number --></label>
+        <name>Reel_Sequence_Number__c</name>
+    </CustomFieldTranslation>

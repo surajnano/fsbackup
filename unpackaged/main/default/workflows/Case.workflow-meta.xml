@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?><Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Change_case_Type_to_Email_Enquiry</fullName>
+        <field>Type</field>
+        <literalValue>Email Enquiry</literalValue>
+        <name>Change case Type to Email Enquiry</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Change_case_priority_to_High</fullName>
+        <field>Priority</field>
+        <literalValue>High</literalValue>
+        <name>Change case priority to High</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Change_case_priority_to_Low</fullName>
+        <field>Priority</field>
+        <literalValue>Low</literalValue>
+        <name>Change case priority to Low</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Change_case_priority_to_Medium</fullName>
+        <field>Priority</field>
+        <literalValue>Medium</literalValue>
+        <name>Change case priority to Medium</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Change_case_status_to_Closed</fullName>
+        <field>Status</field>
+        <literalValue>Closed</literalValue>
+        <name>Change case status to Closed</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Change_case_status_to_In_Progress</fullName>
+        <field>Status</field>
+        <literalValue>In Progress</literalValue>
+        <name>Change case status to In Progress</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>ClearNewMessageFlag</fullName>
+        <field>NewCustomerResponse__c</field>
+        <literalValue>0</literalValue>
+        <name>Clear New Message Flag</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Escalate_Case</fullName>
+        <field>IsEscalated</field>
+        <literalValue>1</literalValue>
+        <name>Escalate Case</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Stopped_False</fullName>
+        <field>IsStopped</field>
+        <literalValue>0</literalValue>
+        <name>Update Stopped - False</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Stopped_True</fullName>
+        <description>Updates Stopped field to True</description>
+        <field>IsStopped</field>
+        <literalValue>1</literalValue>
+        <name>Update Stopped - True</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Clear New Message Flag</fullName>
+        <actions>
+            <name>ClearNewMessageFlag</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>AND( ISCHANGED( LastModifiedDate ), ISCHANGED( Status ), NOT(ISCHANGED(NewCustomerResponse__c )) )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Set Case priority default%3A High</fullName>
+        <actions>
+            <name>Change_case_priority_to_High</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.Priority</field>
+            <operation>equals</operation>
+            <value>Default for Type</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Type</field>
+            <operation>equals</operation>
+            <value>Payment and Card,Loan servicing,Fraud,Email Enquiry,Call back</value>
+        </criteriaItems>
+        <description>Sets the Case priority to 'High' if the priority was set to 'Default for Type' and the case type was set to one that deemed a High Priority</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Set Case priority default%3A Low</fullName>
+        <actions>
+            <name>Change_case_priority_to_Low</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.Priority</field>
+            <operation>equals</operation>
+            <value>Default for Type</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Type</field>
+            <operation>equals</operation>
+            <value>General,Feedback,Copy of Loan Contract,Payout Figure,Copy of Suitability Assessment</value>
+        </criteriaItems>
+        <description>Sets the Case priority to 'Low' if the priority was set to 'Default for Type' and the case type was set to one that deemed a Low Priority</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Set Case priority default%3A Medium</fullName>
+        <actions>
+            <name>Change_case_priority_to_Medium</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.Priority</field>
+            <operation>equals</operation>
+            <value>Default for Type</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Type</field>
+            <operation>equals</operation>
+            <value>Technical issue,Chargebacks and Disputes,Complaint,Arrears,OFI initiated DE Dispute</value>
+        </criteriaItems>
+        <description>Sets the Case priority to 'Medium' if the priority was set to 'Default for Type' and the case type was set to one that deemed a Medium Priority</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Set Email-to-Case type field</fullName>
+        <actions>
+            <name>Change_case_Type_to_Email_Enquiry</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.Origin</field>
+            <operation>equals</operation>
+            <value>Email - App,Email - Help,Email - Info</value>
+        </criteriaItems>
+        <description>sets the Type field to Email Enquiry for Email-to-Case</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Start SLA clock</fullName>
+        <actions>
+            <name>Update_Stopped_False</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Starts the SLA clock when not out with customer</description>
+        <formula>AND( NOT(ISPICKVAL(Status, "With Customer")), NOT(ISPICKVAL(Status, "Closed")) )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Stop SLA clock</fullName>
+        <actions>
+            <name>Update_Stopped_True</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>stops the SLA clock when out with customer</description>
+        <formula>ISPICKVAL(Status, "With Customer")</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Senior_Credit_Underwriter_Team_Leader_Application</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Senior Credit Underwriter / Team Leader</label>
+    <queue>Senior_Credit_Underwriter_Team_Leader</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

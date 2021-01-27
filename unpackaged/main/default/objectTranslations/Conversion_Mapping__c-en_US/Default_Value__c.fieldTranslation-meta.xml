@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- This field is meant for providing default values for some fields on the loan account object. It only works if the Target Object(loan__Loan_Account__c) and Field values are populated. --></help>
+        <label><!-- Default Value --></label>
+        <name>Default_Value__c</name>
+    </CustomFieldTranslation>

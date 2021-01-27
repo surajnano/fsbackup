@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>with Nano header and footer</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Branded Template</name>
+    <style>none</style>
+    <subject>Thank you for contacting Nano</subject>
+    <textOnly>{!LEFT(Contact.FirstName,1) + LOWER(RIGHT(Contact.FirstName,LEN(Contact.FirstName)-1))},
+Please enter text here.
+
+You can reply to this email or call me on 13 NANO (13 6266).
+
+{!Case.OwnerFirstName}
+Nano Customer Support
+
+CONTACT US
+13 NANO (13 6266) •  help@nano.com.au
+
+©2020 Nano Lending Pty Ltd
+ABN 85 628 608 391. Australian Credit Licence 511406.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

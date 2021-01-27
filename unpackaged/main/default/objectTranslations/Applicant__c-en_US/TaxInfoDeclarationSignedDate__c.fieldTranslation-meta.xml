@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- If this field is blank then tax declaration has not been signed --></help>
+        <label><!-- Tax Info Declaration Signed Date --></label>
+        <name>TaxInfoDeclarationSignedDate__c</name>
+    </CustomFieldTranslation>

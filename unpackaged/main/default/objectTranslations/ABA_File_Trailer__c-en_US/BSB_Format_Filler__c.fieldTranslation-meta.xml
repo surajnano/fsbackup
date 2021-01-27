@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Must be &apos;999-999&apos; --></help>
+        <label><!-- BSB Format Filler --></label>
+        <name>BSB_Format_Filler__c</name>
+    </CustomFieldTranslation>

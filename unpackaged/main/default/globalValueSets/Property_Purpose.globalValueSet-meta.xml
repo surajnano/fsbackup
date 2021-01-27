@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Investment</fullName>
+        <default>false</default>
+        <label>Investment</label>
+    </customValue>
+    <customValue>
+        <fullName>Live In</fullName>
+        <default>false</default>
+        <label>Live In</label>
+    </customValue>
+    <masterLabel>Property Purpose</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

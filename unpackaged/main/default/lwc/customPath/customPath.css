@@ -1,0 +1,26 @@
+.warning, .warning::before, .warning::after {
+    background-color: #FFC200 !important; 
+}
+
+.completed, .completed::before, .completed::after {
+    background-color: #4bca81 !important;
+}
+
+.slds-is-current:first-child {
+    border: 2px solid transparent !important;
+}
+
+.slds-is-current:first-child:before, .slds-is-current:first-child:after, .slds-is-current:first-child:hover:before, .slds-is-current:first-child:hover:after {
+    background-image: none !important;
+}
+
+.currentStep:before {
+    border-left: 2px solid #005fb2;
+    border-top: 2px solid #005fb2;
+    border-right: 2px solid #005fb2;
+}
+.currentStep:after {
+    border-left: 2px solid #005fb2;
+    border-right: 2px solid #005fb2;
+    border-bottom: 2px solid #005fb2;
+}

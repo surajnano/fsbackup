@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Monthly</fullName>
+        <default>false</default>
+        <label>Monthly</label>
+    </customValue>
+    <customValue>
+        <fullName>Bi-Monthy</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Bi-Monthy</label>
+    </customValue>
+    <customValue>
+        <fullName>Weekly</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Weekly</label>
+    </customValue>
+    <customValue>
+        <fullName>Fortnightly</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Fortnightly</label>
+    </customValue>
+    <masterLabel>Payment Frequency</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Max_Property_Validation</fullName>
+    <active>true</active>
+    <description>Associated property can't be more than one</description>
+    <errorConditionFormula>ISNEW()  &amp;&amp; LoanApplication.Number_of_Property__c  &gt; 0</errorConditionFormula>
+    <errorMessage>An application can have only one property associated with it.</errorMessage>
+</ValidationRule>

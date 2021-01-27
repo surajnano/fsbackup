@@ -1,0 +1,27 @@
+<template>
+    <template  if:true={application}>
+    <!--
+    <template if:true={application}>
+        <c-financials-highlights-panel application={application}></c-financials-highlights-panel>            
+    </template>
+    -->
+
+    <c-incomes     application={application} onsuccess={handleSuccess} onerror={handleError} ></c-incomes>
+    <br/>
+
+    <c-expenses    application={application} onsuccess={handleSuccess} onerror={handleError} ></c-expenses>
+    <br/>
+
+    <c-liabilities application={application} onsuccess={handleSuccess} onerror={handleError} ></c-liabilities>
+    <br/>
+
+    <c-assets      application={application} onsuccess={handleSuccess} onerror={handleError} ></c-assets>
+    <br/> 
+
+<!--    -->
+<!--    <div class="slds-align_absolute-center slds-modal__footer">-->
+<!--        <lightning-button class="slds-m-around_x-small" label="CANCEL" variant="neutral" onclick={handleCancel} ></lightning-button>-->
+<!--        <lightning-button class="slds-m-around_x-small" label="SAVE" variant="brand" onclick={handleSave}></lightning-button>-->
+<!--    </div>-->
+     </template>
+</template>

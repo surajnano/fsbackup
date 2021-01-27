@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Lived here for the past 3 years? --></label>
+        <name>LivedHereFor3Years__c</name>
+    </CustomFieldTranslation>

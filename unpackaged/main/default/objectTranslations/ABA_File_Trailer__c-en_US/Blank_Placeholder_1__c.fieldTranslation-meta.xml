@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Must be blank filled --></help>
+        <label><!-- Blank Placeholder 1 --></label>
+        <name>Blank_Placeholder_1__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Type --></label>
+        <name>Class__c</name>
+        <picklistValues>
+            <masterLabel>Credit card</masterLabel>
+            <translation><!-- Credit card --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lease</masterLabel>
+            <translation><!-- Lease --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lines of credit</masterLabel>
+            <translation><!-- Lines of credit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Margin loan</masterLabel>
+            <translation><!-- Margin loan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mortgage</masterLabel>
+            <translation><!-- Mortgage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Overdraft</masterLabel>
+            <translation><!-- Overdraft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personal loan</masterLabel>
+            <translation><!-- Personal loan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Store card</masterLabel>
+            <translation><!-- Store card --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vehicle loan (e.g. car or boat)</masterLabel>
+            <translation><!-- Vehicle loan (e.g. car or boat) --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

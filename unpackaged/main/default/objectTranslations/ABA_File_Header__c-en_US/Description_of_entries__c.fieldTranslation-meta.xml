@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- All coded character set valid. Must not be all blanks. Left justified,
+blank filled. --></help>
+        <label><!-- Description of entries --></label>
+        <name>Description_of_entries__c</name>
+    </CustomFieldTranslation>

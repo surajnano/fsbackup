@@ -1,0 +1,18 @@
+[
+    {
+      "accountingRuleName": "Loan Payment Collection",
+      "accountingSourceCriteria": "loan__Internal_Accounting_Generated__c = false AND loan__Cleared__c = true)",
+      "accountingCompletionIdentifier": "loan__Internal_Accounting_Generated__c",
+      "accountingRuleLines": [
+        {
+          "debitGLAccount": "A1002",
+          "creditGLAccount": "E1001",
+          "amountFieldAPIName": "loan__Transaction_Amount__c",
+          "accountingRuleLineName": "Payment Collection Detail",
+          "txnDateFieldAPIName": "loan__Clearing_Date__c",
+          "txnValueDateFieldAPIName": "loan__Clearing_Date__c"
+        }
+      ],
+      "accountingEventName": "loan__Loan_Payment_Transaction__c"
+    }
+  ]

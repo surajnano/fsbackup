@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>bruno.nakamura@8squad.com.au</contactEmail>
+    <label>verteva-larry</label>
+    <oauthConfig>
+        <callbackUrl>https://test.salesforce.com/services/oauth2/success</callbackUrl>
+        <certificate>MIIEZzCCA0+gAwIBAgIOAXYc05hGAAAAAHRcyV4wDQYJKoZIhvcNAQELBQAwezETMBEGA1UEAwwKbmFub19sYXJyeTEYMBYGA1UECwwPMDBEMGwwMDAwMDBEbUVKMRcwFQYDVQQKDA5TYWxlc2ZvcmNlLmNvbTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzELMAkGA1UECAwCQ0ExDDAKBgNVBAYTA1VTQTAeFw0yMDEyMDEwNTQzMTdaFw0yMTEyMDEwMDAwMDBaMHsxEzARBgNVBAMMCm5hbm9fbGFycnkxGDAWBgNVBAsMDzAwRDBsMDAwMDAwRG1FSjEXMBUGA1UECgwOU2FsZXNmb3JjZS5jb20xFjAUBgNVBAcMDVNhbiBGcmFuY2lzY28xCzAJBgNVBAgMAkNBMQwwCgYDVQQGEwNVU0EwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCSpZOxF+CHK/hQ+4VhDB+Dj+SOWDxP0HD9+1jtoRzKUcVhBtVwRXy9rWRoZC4kf1fjXvntW1FqwH+cLKXMWxtlIpIVctkLSxNkMq4yb8l9EYbP9VKVWmD7Goj7wPSBh8JJj0MrhA4e4VTjYLZE1XUkDiPV1cAY2YtYRhlZmvmbZxKj2GHuoMiz6KUjuf/1g/FfFlduUuw9B428Rw0eTj1wGExKGKG2AB5d5xBGw1+V1Cp0NV4zSuhn04gKfSxsjxVDgUSub8by697Jy3cQTprSSuOemwAUoLy9m4R885jUNkN9MEeBBET3zgZqqYns8J4ve41TS9BcufLLH6ktApIlAgMBAAGjgegwgeUwHQYDVR0OBBYEFFlK0G0WeI5DUeB3Pbfz69a90N9HMA8GA1UdEwEB/wQFMAMBAf8wgbIGA1UdIwSBqjCBp4AUWUrQbRZ4jkNR4Hc9t/Pr1r3Q30ehf6R9MHsxEzARBgNVBAMMCm5hbm9fbGFycnkxGDAWBgNVBAsMDzAwRDBsMDAwMDAwRG1FSjEXMBUGA1UECgwOU2FsZXNmb3JjZS5jb20xFjAUBgNVBAcMDVNhbiBGcmFuY2lzY28xCzAJBgNVBAgMAkNBMQwwCgYDVQQGEwNVU0GCDgF2HNOYRgAAAAB0XMleMA0GCSqGSIb3DQEBCwUAA4IBAQBYSxELrcMOJe3Vn6KWk5Iu+Nwztgj8bke4q+LqFXGlhzcqG6iEagP9+FL0KE0tH6ksgXqEoFmPlmnxTt3dbo8N2ti9nGiS39FXKPUd+7A82DkjTYcFwZ1YVYgs39LcZEBlybEQAICN+XK9V1I2mVrsL+xqREAJaoyxfN/diWAaBz2cLbNe2AIgTu3eEpC292/GH2eGMEClxkPb5iNIUG+j69P6ZAUJN/xe92L881cSQrcY8RWrF+r/9v09UI+E2SJwsz2JY8TwUKbdS9IWvPtphArkrhw+UQQLlzBeNEVskXCoCa5rr+8wOzF2e25ZMwEhPs/4hVmDkz+J7D/Zv8Np</certificate>
+        <consumerKey>3MVG99S6MzYiT5k96_V9nDaYqErNV3NnnPCXWfJ9EBmaU2fk8lJZX0oh6ZkquoG1V7ihNrhxPZdXxGZWYWu7k</consumerKey>
+        <isAdminApproved>true</isAdminApproved>
+        <isConsumerSecretOptional>true</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <scopes>Api</scopes>
+        <scopes>Full</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>BYPASS</ipRelaxation>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+    <profileName>Chief Operating Officer Profile</profileName>
+    <profileName>System Administrator</profileName>
+    <profileName>Product Profile</profileName>
+    <profileName>Chief Risk Officer Profile</profileName>
+</ConnectedApp>

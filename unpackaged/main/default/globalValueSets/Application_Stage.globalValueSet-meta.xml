@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Valuation</fullName>
+        <default>false</default>
+        <label>Valuation</label>
+    </customValue>
+    <customValue>
+        <fullName>Authentication</fullName>
+        <default>false</default>
+        <label>Authentication</label>
+    </customValue>
+    <customValue>
+        <fullName>Loan Details</fullName>
+        <default>false</default>
+        <label>Loan Details</label>
+    </customValue>
+    <customValue>
+        <fullName>Personal Identity</fullName>
+        <default>false</default>
+        <label>Personal Identity</label>
+    </customValue>
+    <customValue>
+        <fullName>Financial Verification</fullName>
+        <default>false</default>
+        <label>Financial Verification</label>
+    </customValue>
+    <customValue>
+        <fullName>Decide and Adjust</fullName>
+        <default>false</default>
+        <label>Decide and Adjust</label>
+    </customValue>
+    <customValue>
+        <fullName>Settlement</fullName>
+        <default>false</default>
+        <label>Settlement</label>
+    </customValue>
+    <masterLabel>Application Stage</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

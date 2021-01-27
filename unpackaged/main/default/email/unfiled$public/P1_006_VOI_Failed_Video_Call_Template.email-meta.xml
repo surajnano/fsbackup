@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Custom email template designed for P1-006</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>P1_006 VOI Failed  Video Call  Template</name>
+    <style>none</style>
+    <subject>{!LEFT(Contact.FirstName,1) + LOWER(RIGHT(Contact.FirstName,LEN(Contact.FirstName)-1))}, we were unable to verify your identity</subject>
+    <textOnly>We need to verify your identity.
+
+{!LEFT(Contact.FirstName,1) + LOWER(RIGHT(Contact.FirstName,LEN(Contact.FirstName)-1))},
+We couldn&apos;t digitally verify your identity. Because we don&apos;t have branches, we need to take a couple of online steps which we will do via video call:
+
+Date:  Thursday, 20 October 2020
+Time: 5:30pm
+
+JOIN VIDEO CALL
+
+A member of Nano Customer Support will connect with you at this time. It should only take a few minutes, is totally private and all you need to bring is your smiling face and two forms of photo ID (e.g. driver&apos;s license, passport or proof of age card).
+
+If this does not work with your schedule, please call Nano Customer Support on 13 NANO  (13 6266) or email us at help@nano.com.au to reschedule.
+
+As this is a regulatory requirement, we will be recording and storing the video call in accordance with our Privacy Policy which can be read here on our website.
+
+CONTACT US
+13 NANO (13 6266) •  help@nano.com.au
+
+©2020 Nano Lending Pty Ltd
+ABN 85 628 608 391. Australian Credit Licence 511406.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

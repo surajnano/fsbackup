@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Closing_notes_required_on_Close</fullName>
+    <active>true</active>
+    <description>Ensures closing notes are populated when a case is closed</description>
+    <errorConditionFormula>AND(
+ISPICKVAL(Status, "Closed"),
+ISBLANK(Closing_Notes__c)
+)</errorConditionFormula>
+    <errorDisplayField>Closing_Notes__c</errorDisplayField>
+    <errorMessage>Closing notes are required when closing the case</errorMessage>
+</ValidationRule>

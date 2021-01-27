@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Loan Purpose --></label>
+        <name>RefinanceReason__c</name>
+        <picklistValues>
+            <masterLabel>I want a better experience with my lender and more flexibility from my loan.</masterLabel>
+            <translation><!-- I want a better experience with my lender and more flexibility from my loan. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I want a better variable rate</masterLabel>
+            <translation><!-- I want a better variable rate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I want to pay off my home loan sooner</masterLabel>
+            <translation><!-- I want to pay off my home loan sooner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I want to refinance and borrow extra money (up to $100,000) for Home Improvements</masterLabel>
+            <translation><!-- I want to refinance and borrow extra money (up to $100,000) for Home Improvements --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I want to refinance and borrow extra money (up to $100,000) for Personal Assets</masterLabel>
+            <translation><!-- I want to refinance and borrow extra money (up to $100,000) for Personal Assets --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Settlement Status --></label>
+        <name>SettlementStatus__c</name>
+        <picklistValues>
+            <masterLabel>Cancel Settlement</masterLabel>
+            <translation><!-- Cancel Settlement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Document Returned</masterLabel>
+            <translation><!-- Document Returned --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Document Sent</masterLabel>
+            <translation><!-- Document Sent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Document Verified</masterLabel>
+            <translation><!-- Document Verified --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Instruction Received</masterLabel>
+            <translation><!-- Instruction Received --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Matter Not Proceeding</masterLabel>
+            <translation><!-- Matter Not Proceeding --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Matter off Hold</masterLabel>
+            <translation><!-- Matter off Hold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Matter on Hold</masterLabel>
+            <translation><!-- Matter on Hold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outstanding Requirements</masterLabel>
+            <translation><!-- Outstanding Requirements --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pend Settlement</masterLabel>
+            <translation><!-- Pend Settlement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ready to Book</masterLabel>
+            <translation><!-- Ready to Book --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rework Received</masterLabel>
+            <translation><!-- Rework Received --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sent to Custodian</masterLabel>
+            <translation><!-- Sent to Custodian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Settlement Booked</masterLabel>
+            <translation><!-- Settlement Booked --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Settlement Complete</masterLabel>
+            <translation><!-- Settlement Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Title Registered</masterLabel>
+            <translation><!-- Title Registered --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

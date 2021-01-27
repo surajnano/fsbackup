@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- This field is only reserved for the child objects at the source level and carries the API name of the application lookup on them. So that we could query those child records such as applicants, rate schedules and properties for the app. --></help>
+        <label><!-- Filter Criteria --></label>
+        <name>Filter_Criteria__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Must be User Preferred Specification as advised in Application. Left
+justified, blank filled.
+All coded character set valid. Must not be all blanks. --></help>
+        <label><!-- Name of user supplying file --></label>
+        <name>Name_of_user_supplying_file__c</name>
+    </CustomFieldTranslation>

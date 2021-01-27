@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Trace_record_bsb_number__c</fullName>
+    <description>Bank(FI)/State/Branch and account number of User to enable
+retracing of the entry to its source if necessary.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Bank(FI)/State/Branch and account number of User to enable
+retracing of the entry to its source if necessary.</inlineHelpText>
+    <label>Trace record bsb number</label>
+    <length>7</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

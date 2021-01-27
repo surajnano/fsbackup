@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>50.0</apiVersion>
+    <assignments>
+        <name>Set_the_previous_value_in_previous_trust</name>
+        <label>Set the previous value in previous trust</label>
+        <locationX>50</locationX>
+        <locationY>493</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.PreviousTrust__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Get_records.Warehouse__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>$Record.LastTrustupdateTimestamp__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Flow.CurrentDateTime</elementReference>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <decisions>
+        <description>If warehouse value changed, store the previous value in the Last Trust Update Timestamp field.</description>
+        <name>Did_the_warehouse_value_change</name>
+        <label>Did the warehouse value change</label>
+        <locationX>182</locationX>
+        <locationY>373</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>warehouse_value_changed</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Warehouse__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <elementReference>Get_records.Warehouse__c</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Set_the_previous_value_in_previous_trust</targetReference>
+            </connector>
+            <label>Yes</label>
+        </rules>
+    </decisions>
+    <description>When trust(Warehouse) on CL loan is updated, the previous value is stored in the previous Trust field and the time of this change is stored in LastTrustUpdateTimestamp__c</description>
+    <interviewLabel>Trust on CL Loan is updated {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Trust on CL Loan updated</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Get_records</name>
+        <label>Get records</label>
+        <locationX>182</locationX>
+        <locationY>253</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Did_the_warehouse_value_change</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>loan__Loan_Account__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <start>
+        <locationX>56</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Get_records</targetReference>
+        </connector>
+        <object>loan__Loan_Account__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SettlementStatus__c</fullName>
+    <externalId>false</externalId>
+    <label>Settlement Status</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Instruction Received</fullName>
+                <default>false</default>
+                <label>Instruction Received</label>
+            </value>
+            <value>
+                <fullName>Rework Received</fullName>
+                <default>false</default>
+                <label>Rework Received</label>
+            </value>
+            <value>
+                <fullName>Document Sent</fullName>
+                <default>false</default>
+                <label>Document Sent</label>
+            </value>
+            <value>
+                <fullName>Document Returned</fullName>
+                <default>false</default>
+                <label>Document Returned</label>
+            </value>
+            <value>
+                <fullName>Document Verified</fullName>
+                <default>false</default>
+                <label>Document Verified</label>
+            </value>
+            <value>
+                <fullName>Outstanding Requirements</fullName>
+                <default>false</default>
+                <label>Outstanding Requirements</label>
+            </value>
+            <value>
+                <fullName>Ready to Book</fullName>
+                <default>false</default>
+                <label>Ready to Book</label>
+            </value>
+            <value>
+                <fullName>Settlement Booked</fullName>
+                <default>false</default>
+                <label>Settlement Booked</label>
+            </value>
+            <value>
+                <fullName>Settlement Complete</fullName>
+                <default>false</default>
+                <label>Settlement Complete</label>
+            </value>
+            <value>
+                <fullName>Title Registered</fullName>
+                <default>false</default>
+                <label>Title Registered</label>
+            </value>
+            <value>
+                <fullName>Sent to Custodian</fullName>
+                <default>false</default>
+                <label>Sent to Custodian</label>
+            </value>
+            <value>
+                <fullName>Matter on Hold</fullName>
+                <default>false</default>
+                <label>Matter on Hold</label>
+            </value>
+            <value>
+                <fullName>Matter off Hold</fullName>
+                <default>false</default>
+                <label>Matter off Hold</label>
+            </value>
+            <value>
+                <fullName>Matter Not Proceeding</fullName>
+                <default>false</default>
+                <label>Matter Not Proceeding</label>
+            </value>
+            <value>
+                <fullName>Cancel Settlement</fullName>
+                <default>false</default>
+                <label>Cancel Settlement</label>
+            </value>
+            <value>
+                <fullName>Pend Settlement</fullName>
+                <default>false</default>
+                <label>Pend Settlement</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

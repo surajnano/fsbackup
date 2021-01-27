@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Application_Sub_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Application Sub Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Status</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Pending</fullName>
+                <default>true</default>
+                <label>Pending</label>
+            </value>
+            <value>
+                <fullName>Completed</fullName>
+                <default>false</default>
+                <label>Completed</label>
+            </value>
+            <value>
+                <fullName>Submitted</fullName>
+                <default>false</default>
+                <label>Submitted</label>
+            </value>
+            <value>
+                <fullName>Valuation In progress</fullName>
+                <default>false</default>
+                <label>Valuation In progress</label>
+            </value>
+            <value>
+                <fullName>Valuation Pending</fullName>
+                <default>false</default>
+                <label>Valuation Pending</label>
+            </value>
+            <value>
+                <fullName>Valuation Completed</fullName>
+                <default>false</default>
+                <label>Valuation Completed</label>
+            </value>
+            <value>
+                <fullName>Loan Details Completed</fullName>
+                <default>false</default>
+                <label>Loan Details Completed</label>
+            </value>
+            <value>
+                <fullName>VOI In Progress</fullName>
+                <default>false</default>
+                <label>VOI In Progress</label>
+            </value>
+            <value>
+                <fullName>VOI Pending</fullName>
+                <default>false</default>
+                <label>VOI Pending</label>
+            </value>
+            <value>
+                <fullName>VOI Completed</fullName>
+                <default>false</default>
+                <label>VOI Completed</label>
+            </value>
+            <value>
+                <fullName>IDV In Progress</fullName>
+                <default>false</default>
+                <label>IDV In Progress</label>
+            </value>
+            <value>
+                <fullName>IDV Pending</fullName>
+                <default>false</default>
+                <label>IDV Pending</label>
+            </value>
+            <value>
+                <fullName>IDV Completed</fullName>
+                <default>false</default>
+                <label>IDV Completed</label>
+            </value>
+            <value>
+                <fullName>Financial Verification In Progress</fullName>
+                <default>false</default>
+                <label>Financial Verification In Progress</label>
+            </value>
+            <value>
+                <fullName>Financial Verification Pending</fullName>
+                <default>false</default>
+                <label>Financial Verification Pending</label>
+            </value>
+            <value>
+                <fullName>Financial Verification Completed</fullName>
+                <default>false</default>
+                <label>Financial Verification Completed</label>
+            </value>
+            <value>
+                <fullName>Referred</fullName>
+                <default>false</default>
+                <label>Referred</label>
+            </value>
+            <value>
+                <fullName>Waiting on Doc</fullName>
+                <default>false</default>
+                <label>Waiting on Doc</label>
+            </value>
+            <value>
+                <fullName>Doc reviewing</fullName>
+                <default>false</default>
+                <label>Doc reviewing</label>
+            </value>
+            <value>
+                <fullName>Waiting Customer Resolution</fullName>
+                <default>false</default>
+                <label>Waiting Customer Resolution</label>
+            </value>
+            <value>
+                <fullName>Waiting on IDV</fullName>
+                <default>false</default>
+                <label>Waiting on IDV</label>
+            </value>
+            <value>
+                <fullName>Waiting on Land Title</fullName>
+                <default>false</default>
+                <label>Waiting on Land Title</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Personal Identity</controllingFieldValue>
+            <valueName>VOI In Progress</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Personal Identity</controllingFieldValue>
+            <valueName>VOI Pending</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Personal Identity</controllingFieldValue>
+            <valueName>VOI Completed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Verification</controllingFieldValue>
+            <valueName>Financial Verification In Progress</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Verification</controllingFieldValue>
+            <valueName>Financial Verification Pending</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Verification</controllingFieldValue>
+            <valueName>Financial Verification Completed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Decide and Adjust</controllingFieldValue>
+            <valueName>Submitted</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Decide and Adjust</controllingFieldValue>
+            <valueName>IDV In Progress</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Decide and Adjust</controllingFieldValue>
+            <valueName>IDV Pending</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Decide and Adjust</controllingFieldValue>
+            <valueName>IDV Completed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Decide and Adjust</controllingFieldValue>
+            <valueName>Waiting on Doc</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Decide and Adjust</controllingFieldValue>
+            <valueName>Doc reviewing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Decide and Adjust</controllingFieldValue>
+            <valueName>Waiting Customer Resolution</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Decide and Adjust</controllingFieldValue>
+            <valueName>Waiting on IDV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Decide and Adjust</controllingFieldValue>
+            <valueName>Waiting on Land Title</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Referred</controllingFieldValue>
+            <valueName>Referred</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Valuation</controllingFieldValue>
+            <valueName>Valuation In progress</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Valuation</controllingFieldValue>
+            <valueName>Valuation Pending</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Valuation</controllingFieldValue>
+            <valueName>Valuation Completed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Authentication</controllingFieldValue>
+            <valueName>Pending</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Authentication</controllingFieldValue>
+            <valueName>Completed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Loan Details</controllingFieldValue>
+            <valueName>Loan Details Completed</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,13 @@
+<!--**********************************************************************************
+* Lightning Component: edCustomFileUpload
+* Created by Suresh Meghnathi: 05/06/2020
+* 
+* - Modifications:
+* - Suresh Meghnathi, 05/06/2020 - Initial Development
+***********************************************************************************-->
+<design:component label="S3-File Uploader (Verteva Custom)">
+    <design:attribute name="parentRecordId" label="Record Id" description="Id of the Salesforce record to whome file needs to be attached."/>
+    <design:attribute name="showFileUploaderHeader" label="Show File Uploader Header" default="true"/>
+    <design:attribute name="fileUploaderHeader" label="File Uploader Header" default="Upload S3-Files"/>
+    <design:attribute name="inline" label="Inline" default="true" description="Set this flag to true, if the component is being added in any lightning pages."/>
+</design:component>

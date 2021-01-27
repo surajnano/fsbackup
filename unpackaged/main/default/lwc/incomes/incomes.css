@@ -1,0 +1,11 @@
+.tfoot td {
+    background-color: #F9F9F9;
+}
+
+tr.exclude-true td {
+    color: #d3d3d3 !important;
+}
+
+.slds-text-link {
+    cursor: pointer;
+}

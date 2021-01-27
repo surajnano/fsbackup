@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Number_of_Property__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Number of property attached to an application</inlineHelpText>
+    <label>Number of Property</label>
+    <summaryForeignKey>LoanApplicationProperty.LoanApplicationId</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

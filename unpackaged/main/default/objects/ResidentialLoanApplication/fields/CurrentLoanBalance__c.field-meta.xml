@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CurrentLoanBalance__c</fullName>
+    <description>When refinancing, this is the balance on the current loan</description>
+    <externalId>false</externalId>
+    <label>Current Loan Balance</label>
+    <precision>16</precision>
+    <required>false</required>
+    <scale>3</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

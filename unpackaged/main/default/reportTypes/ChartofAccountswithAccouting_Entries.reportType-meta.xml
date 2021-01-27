@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <baseObject>clcommon__Chart_Of_Account__c</baseObject>
+    <category>other</category>
+    <deployed>true</deployed>
+    <description>To create GL reports</description>
+    <label>Chart of Accounts with Accouting Entries</label>
+    <sections>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Id</field>
+            <table>clcommon__Chart_Of_Account__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Owner</field>
+            <table>clcommon__Chart_Of_Account__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <field>Name</field>
+            <table>clcommon__Chart_Of_Account__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>CreatedDate</field>
+            <table>clcommon__Chart_Of_Account__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>CreatedBy</field>
+            <table>clcommon__Chart_Of_Account__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>LastModifiedDate</field>
+            <table>clcommon__Chart_Of_Account__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>LastModifiedBy</field>
+            <table>clcommon__Chart_Of_Account__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>clcommon__Chart_of_Account_Code__c</field>
+            <table>clcommon__Chart_Of_Account__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>clcommon__Has_Negative_Value__c</field>
+            <table>clcommon__Chart_Of_Account__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>clcommon__Parent_Account__c</field>
+            <table>clcommon__Chart_Of_Account__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>clcommon__Type__c</field>
+            <table>clcommon__Chart_Of_Account__c</table>
+        </columns>
+        <masterLabel>Chart of Accounts</masterLabel>
+    </sections>
+</ReportType>

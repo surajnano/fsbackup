@@ -1,0 +1,34 @@
+<!--**********************************************************************************
+* Lightning Component: edCustomFileUpload
+* Created by Suresh Meghnathi: 12/05/2020
+* 
+* - Modifications:
+* - Suresh Meghnathi, 12/05/2020 - Initial Development
+***********************************************************************************-->
+<aura:component controller="edCustomS3FileUploadController" 
+                implements="force:hasRecordId,force:lightningQuickActionWithoutHeader,forceCommunity:availableForAllPageTypes,flexipage:availableForAllPageTypes">
+    <!-- Global Attributes -->
+    <aura:attribute name="parentRecordId" type="String" description="Id of the Salesforce record to whome file needs to be attached." />
+    <aura:attribute name="showFileUploaderHeader" type="Boolean" default="true" description="Flag to indicate whether or not file uploaded header needs to be displayed." />
+    <aura:attribute name="fileUploaderHeader" type="String" default="Upload S3-Files" description="Header of the file uploader." />
+    <aura:attribute name="inline" type="Boolean" default="false" description="Flag to indicate whether or not file uploaded component is added as inline component."/>
+    
+    <!-- Internal Attributes -->
+    <aura:attribute name="success" type="Boolean" default="false" description="Flag to indicate whether or not folder creation is successful." />
+    <aura:attribute name="folderCreationErrorMessage" type="String" description="Folder creation error message." />
+    
+    <!-- Aura render life cycle events -->
+	<aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+	
+    <aura:if isTrue="{!v.success}">
+    	<NEILON:edLightningMultiFileUpload recordId="{!v.recordId}" parentRecordId="{!v.parentRecordId}" showFileUploaderHeader="{!v.showFileUploaderHeader}" fileUploaderHeader="{!v.fileUploaderHeader}" autoUpload="true" inline="{!v.inline}"/>
+        <aura:set attribute="else">
+        	<div class="slds-notify slds-notify_alert slds-theme_alert-texture slds-theme_info">
+                <lightning:icon src="{!$Resource.NEILON__SLDS+ '/assets/icons/utility-sprite/svg/symbols.svg#info'}" size="small" alternativeText="info" class="slds-icon_container slds-icon-utility-info slds-m-right_x-small"/>
+                <span class="slds-text-body–regular" style="text-align:left !important;">
+                    <lightning:formattedText value="{!v.folderCreationErrorMessage}"/>
+                </span>
+ 			</div>
+        </aura:set>
+    </aura:if>
+</aura:component>

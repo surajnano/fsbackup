@@ -1,0 +1,13 @@
+/**
+ * Created by Muhammad on 24/11/20.
+ */
+
+ul.firstList {
+    list-style-type: disc !important;
+}
+
+ul.secondList {
+    list-style-type: circle;
+    margin-left: 2em;
+    font-size: 10pt;
+}

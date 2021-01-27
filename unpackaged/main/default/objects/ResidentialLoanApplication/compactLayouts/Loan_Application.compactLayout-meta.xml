@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Loan_Application</fullName>
+    <fields>Name</fields>
+    <fields>Status</fields>
+    <fields>TotalFinancialAssetAmount</fields>
+    <fields>TotalOtherAssetAmount</fields>
+    <fields>TotalFinLiabilityMonthlyAmt</fields>
+    <fields>TotalOtherFinLiabilityMonthlyAmt</fields>
+    <fields>OwnerId</fields>
+    <label>Loan Application</label>
+</CompactLayout>

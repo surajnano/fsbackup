@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Refinance_Reasons__c</fullName>
+    <externalId>false</externalId>
+    <label>Refinance Reason(s)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>I want a lower rate</fullName>
+                <default>true</default>
+                <label>I want a lower rate</label>
+            </value>
+            <value>
+                <fullName>I want to pay off my mortgage sooner</fullName>
+                <default>false</default>
+                <label>I want to pay off my mortgage sooner</label>
+            </value>
+            <value>
+                <fullName>I want to borrow some extra money</fullName>
+                <default>false</default>
+                <label>I want to borrow some extra money</label>
+            </value>
+            <value>
+                <fullName>I am unhappy with my current lender</fullName>
+                <default>false</default>
+                <label>I am unhappy with my current lender</label>
+            </value>
+            <value>
+                <fullName>I want specific loan features</fullName>
+                <default>false</default>
+                <label>I want specific loan features</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>6</visibleLines>
+</CustomField>

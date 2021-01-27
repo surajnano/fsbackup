@@ -1,0 +1,22 @@
+<template>
+
+	<lightning-accordion allow-multiple-sections-open active-section-name="fTable">
+
+		<lightning-accordion-section class="sectionHeader" label={sectionHeader} name="fTable">
+
+			<div if:true={showLoading}>
+				<lightning-spinner alternative-text="Loading..." variant="brand">
+				</lightning-spinner>
+			</div>
+
+			<template if:true={financialData}>
+				<lightning-datatable resize-column-disabled hide-checkbox-column data={financialData} columns={financialColumns} key-field="Id" ></lightning-datatable>
+			</template>
+			
+
+		</lightning-accordion-section>
+
+
+	</lightning-accordion>
+
+</template>

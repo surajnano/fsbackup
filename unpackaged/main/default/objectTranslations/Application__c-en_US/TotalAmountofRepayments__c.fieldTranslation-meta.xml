@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Total Amount of Repayments over the Loan term --></help>
+        <label><!-- Total Amount of Repayments --></label>
+        <name>TotalAmountofRepayments__c</name>
+    </CustomFieldTranslation>

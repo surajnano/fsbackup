@@ -1,0 +1,15 @@
+.slds-hint-parent td {
+    font-weight: bold;
+    background-color: #F9F9F9;
+}
+.tfoot td {
+    background-color: #F9F9F9;
+}
+
+.slds-accordion__summary-heading {
+    font-size: 1.2em;
+}
+
+tr.exclude-true {
+    color: #d3d3d3 !important;
+}

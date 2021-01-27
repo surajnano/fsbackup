@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The API name of the source object, whether it&apos;s a parent or a child object. --></help>
+        <label><!-- Source Object --></label>
+        <name>Source_Object__c</name>
+    </CustomFieldTranslation>

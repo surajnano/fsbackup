@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Credit_Underwriter_Application</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Credit Underwriter</label>
+    <queue>Credit_Underwriter</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

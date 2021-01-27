@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Parent_Object__c</fullName>
+    <description>API name of the target’s parent’s lookup. This field is only reserved for the target’s child records such as rate schedules, collaterals and parties.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>API name of the target’s parent’s lookup. This field is only reserved for the target’s child records such as rate schedules, collaterals and parties.</inlineHelpText>
+    <label>Parent Object</label>
+    <length>50</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

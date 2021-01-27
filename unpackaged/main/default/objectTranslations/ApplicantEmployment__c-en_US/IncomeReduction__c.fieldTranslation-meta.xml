@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Income Reduction --></label>
+        <name>IncomeReduction__c</name>
+        <picklistValues>
+            <masterLabel>Less than 20%</masterLabel>
+            <translation><!-- Less than 20% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>More than 20%</masterLabel>
+            <translation><!-- More than 20% --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

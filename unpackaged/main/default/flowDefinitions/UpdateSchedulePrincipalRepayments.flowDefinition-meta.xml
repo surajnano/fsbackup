@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <activeVersionNumber>6</activeVersionNumber>
+    <description>A flow to Roll Up current month scheduled payment Amount and to use for Cashflow report.</description>
+    <masterLabel>Update Schedule Repayments</masterLabel>
+</FlowDefinition>

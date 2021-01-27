@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Valuation Type --></label>
+        <name>ValuationType__c</name>
+        <picklistValues>
+            <masterLabel>AVM</masterLabel>
+            <translation><!-- AVM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AVM Soft</masterLabel>
+            <translation><!-- AVM Soft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Desktop Valuation</masterLabel>
+            <translation><!-- Desktop Valuation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Full Valuation</masterLabel>
+            <translation><!-- Full Valuation --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

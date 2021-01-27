@@ -1,0 +1,29 @@
+<template>
+
+
+    <div class="slds-grid slds-gutters slds-m-horizontal_xxx-small">
+
+        <div if:true={serviceability} class="slds-size-1-of-12 slds-m-around_small">
+            <c-custom-field title="BASIQ Surplus" is-number style-class={basiqClass} format-style="currency" value={serviceability.basiq} ></c-custom-field>
+        </div>
+        <div if:true={serviceability} class="slds-size-1-of-12 slds-m-around_small">
+            <c-custom-field title="Applicant Surplus" is-number style-class={applicantClass} format-style="currency" value={serviceability.applicant} ></c-custom-field>
+        </div>
+        <div if:true={serviceability} class="slds-size-1-of-12 slds-m-around_small">
+            <c-custom-field title="Assessed Surplus" is-number style-class={assessedClass} format-style="currency" value={serviceability.assessed} ></c-custom-field>
+        </div>
+
+        <div class="slds-col_bump-left"></div>
+
+        <div class="slds-size-1-of-12 slds-m-around_small">
+            <c-custom-field title="Application Submitted On" is-date value={application.SubmittedDate__c}></c-custom-field>
+        </div>
+        <div if:true={application.FinancialLastModifiedDate__c} class="slds-size-1-of-12 slds-m-around_small">
+            <c-custom-field title="Last Modified On" is-date value={application.FinancialLastModifiedDate__c}></c-custom-field>
+        </div>
+        <div if:true={application.FinancialLastModifiedBy__c} class="slds-size-1-of-12 slds-m-around_small">
+            <c-custom-field title="Last Modified By" is-url value={lastModifiedByUrl} label={application.FinancialLastModifiedBy__r.Name}></c-custom-field>
+        </div>
+    </div>
+    
+</template>

@@ -1,0 +1,23 @@
+<template>
+
+    <div class="slds-is-relative" >
+        <div if:true={showSpinner} >
+            <lightning-spinner alternative-text="Loading" size="large"></lightning-spinner>
+        </div>
+
+        <header class="slds-modal__header">
+            <h2 id="modal-heading-01" class="slds-modal__title slds-hyphenate">{modalTitle}</h2>
+        </header>
+        <div class="slds-modal__content slds-p-around_medium slds-align_absolute-center" id="modal-content-id-1">
+            {displayMessage}
+        </div>
+        <footer class="slds-modal__footer slds-align_absolute-center">
+            <button class="slds-button slds-button_neutral" onclick={cancel}>Cancel</button>
+            <button class="slds-button slds-button_brand" onclick={confirmCallout}>Confirm</button>
+        </footer>
+
+
+    </div>
+
+    
+</template>

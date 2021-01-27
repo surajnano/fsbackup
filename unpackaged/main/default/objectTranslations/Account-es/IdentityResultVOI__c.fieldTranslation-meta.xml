@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Identity Result VOI --></label>
+        <name>IdentityResultVOI__c</name>
+        <picklistValues>
+            <masterLabel>FAIL</masterLabel>
+            <translation><!-- FAIL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NA</masterLabel>
+            <translation><!-- NA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PASS</masterLabel>
+            <translation><!-- PASS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UNCHECKED</masterLabel>
+            <translation><!-- UNCHECKED --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

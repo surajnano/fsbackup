@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MatterOnHold__c</fullName>
+    <externalId>false</externalId>
+    <label>Matter On Hold</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Broker advised to place the matter on hold</fullName>
+                <default>false</default>
+                <label>Broker advised to place the matter on hold</label>
+            </value>
+            <value>
+                <fullName>Lender advised to place file on hold</fullName>
+                <default>false</default>
+                <label>Lender advised to place file on hold</label>
+            </value>
+            <value>
+                <fullName>Confirming instructions with lender</fullName>
+                <default>false</default>
+                <label>Confirming instructions with lender</label>
+            </value>
+            <value>
+                <fullName>Instruction Error</fullName>
+                <default>false</default>
+                <label>Instruction Error</label>
+            </value>
+            <value>
+                <fullName>Name Discrepancies</fullName>
+                <default>false</default>
+                <label>Name Discrepancies</label>
+            </value>
+            <value>
+                <fullName>Supporting Document Missing</fullName>
+                <default>false</default>
+                <label>Supporting Document Missing</label>
+            </value>
+            <value>
+                <fullName>Mortgagor Discrepancy</fullName>
+                <default>false</default>
+                <label>Mortgagor Discrepancy</label>
+            </value>
+            <value>
+                <fullName>Data change – Ownership split</fullName>
+                <default>false</default>
+                <label>Data change – Ownership split</label>
+            </value>
+            <value>
+                <fullName>Data change - Name</fullName>
+                <default>false</default>
+                <label>Data change - Name</label>
+            </value>
+            <value>
+                <fullName>Data change – Email address</fullName>
+                <default>false</default>
+                <label>Data change – Email address</label>
+            </value>
+            <value>
+                <fullName>Data change – Mobile number</fullName>
+                <default>false</default>
+                <label>Data change – Mobile number</label>
+            </value>
+            <value>
+                <fullName>Data change – security address</fullName>
+                <default>false</default>
+                <label>Data change – security address</label>
+            </value>
+            <value>
+                <fullName>Data change – residential address</fullName>
+                <default>false</default>
+                <label>Data change – residential address</label>
+            </value>
+            <value>
+                <fullName>Data change – special condition</fullName>
+                <default>false</default>
+                <label>Data change – special condition</label>
+            </value>
+            <value>
+                <fullName>Rate Dispute</fullName>
+                <default>false</default>
+                <label>Rate Dispute</label>
+            </value>
+            <value>
+                <fullName>Resubmission</fullName>
+                <default>false</default>
+                <label>Resubmission</label>
+            </value>
+            <value>
+                <fullName>Credit expiry date</fullName>
+                <default>false</default>
+                <label>Credit expiry date</label>
+            </value>
+            <value>
+                <fullName>Further ID Required</fullName>
+                <default>false</default>
+                <label>Further ID Required</label>
+            </value>
+            <value>
+                <fullName>Title Search Discrepancy</fullName>
+                <default>false</default>
+                <label>Title Search Discrepancy</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

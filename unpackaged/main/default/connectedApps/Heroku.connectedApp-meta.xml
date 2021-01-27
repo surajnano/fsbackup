@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>bruno.nakamura@8squad.com.au</contactEmail>
+    <label>Heroku</label>
+    <oauthConfig>
+        <callbackUrl>https://my.callback.url</callbackUrl>
+        <consumerKey>3MVG99S6MzYiT5k96_V9nDaYqEkbvV3P6iZgxzL3cwaVVJbRnlwCm1XWCyWP062uGVKXNMsCNHBpHQLp57QL.</consumerKey>
+        <isAdminApproved>false</isAdminApproved>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <scopes>Api</scopes>
+        <scopes>Full</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+</ConnectedApp>

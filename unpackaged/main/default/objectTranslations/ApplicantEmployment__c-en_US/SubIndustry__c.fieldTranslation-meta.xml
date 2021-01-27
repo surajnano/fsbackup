@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Sub Industry --></label>
+        <name>SubIndustry__c</name>
+        <picklistValues>
+            <masterLabel>Accommodation</masterLabel>
+            <translation><!-- Accommodation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Administrative Services</masterLabel>
+            <translation><!-- Administrative Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Adult, Community and Other Education</masterLabel>
+            <translation><!-- Adult, Community and Other Education --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Agriculture</masterLabel>
+            <translation><!-- Agriculture --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Agriculture, Forestry and Fishing Support Services</masterLabel>
+            <translation><!-- Agriculture, Forestry and Fishing Support Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Air and Space Transport</masterLabel>
+            <translation><!-- Air and Space Transport --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aquaculture</masterLabel>
+            <translation><!-- Aquaculture --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auxiliary Finance and Insurance Services</masterLabel>
+            <translation><!-- Auxiliary Finance and Insurance Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Basic Chemical and Chemical Product Manufacturing</masterLabel>
+            <translation><!-- Basic Chemical and Chemical Product Manufacturing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Basic Material Wholesaling</masterLabel>
+            <translation><!-- Basic Material Wholesaling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beverage and Tobacco Product Manufacturing</masterLabel>
+            <translation><!-- Beverage and Tobacco Product Manufacturing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Broadcasting (except Internet)</masterLabel>
+            <translation><!-- Broadcasting (except Internet) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Building Cleaning, Pest Control and Other Support Services</masterLabel>
+            <translation><!-- Building Cleaning, Pest Control and Other Support Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Building Construction</masterLabel>
+            <translation><!-- Building Construction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coal Mining</masterLabel>
+            <translation><!-- Coal Mining --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commission-Based Wholesaling</masterLabel>
+            <translation><!-- Commission-Based Wholesaling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Computer System Design and Related Services</masterLabel>
+            <translation><!-- Computer System Design and Related Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Construction Services</masterLabel>
+            <translation><!-- Construction Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Creative and Performing Arts Activities</masterLabel>
+            <translation><!-- Creative and Performing Arts Activities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Defence</masterLabel>
+            <translation><!-- Defence --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Electricity Supply</masterLabel>
+            <translation><!-- Electricity Supply --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exploration and Other Mining Support Services</masterLabel>
+            <translation><!-- Exploration and Other Mining Support Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fabricated Metal Product Manufacturing</masterLabel>
+            <translation><!-- Fabricated Metal Product Manufacturing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finance</masterLabel>
+            <translation><!-- Finance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fishing, Hunting and Trapping</masterLabel>
+            <translation><!-- Fishing, Hunting and Trapping --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Food Product Manufacturing</masterLabel>
+            <translation><!-- Food Product Manufacturing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Food Retailing</masterLabel>
+            <translation><!-- Food Retailing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Food and Beverage Services</masterLabel>
+            <translation><!-- Food and Beverage Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Forestry and Logging</masterLabel>
+            <translation><!-- Forestry and Logging --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Furniture and Other Manufacturing</masterLabel>
+            <translation><!-- Furniture and Other Manufacturing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gambling Activities</masterLabel>
+            <translation><!-- Gambling Activities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gas Supply</masterLabel>
+            <translation><!-- Gas Supply --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grocery, Liquor and Tobacco Product Wholesaling</masterLabel>
+            <translation><!-- Grocery, Liquor and Tobacco Product Wholesaling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Heavy and Civil Engineering Construction</masterLabel>
+            <translation><!-- Heavy and Civil Engineering Construction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Heritage Activities</masterLabel>
+            <translation><!-- Heritage Activities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hospitals</masterLabel>
+            <translation><!-- Hospitals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insurance and Superannuation Funds</masterLabel>
+            <translation><!-- Insurance and Superannuation Funds --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internet Publishing and Broadcasting</masterLabel>
+            <translation><!-- Internet Publishing and Broadcasting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internet Service Providers, Web Search Portals and Data Processing Services</masterLabel>
+            <translation><!-- Internet Service Providers, Web Search Portals and Data Processing Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Library and Other Information Services</masterLabel>
+            <translation><!-- Library and Other Information Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Machinery and Equipment Manufacturing</masterLabel>
+            <translation><!-- Machinery and Equipment Manufacturing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Machinery and Equipment Wholesaling</masterLabel>
+            <translation><!-- Machinery and Equipment Wholesaling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medical and Other Health Care Services</masterLabel>
+            <translation><!-- Medical and Other Health Care Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Metal Ore Mining</masterLabel>
+            <translation><!-- Metal Ore Mining --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Motion Picture and Sound Recording Activities</masterLabel>
+            <translation><!-- Motion Picture and Sound Recording Activities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Motor Vehicle and Motor Vehicle Parts Retailing</masterLabel>
+            <translation><!-- Motor Vehicle and Motor Vehicle Parts Retailing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Motor Vehicle and Motor Vehicle Parts Wholesaling</masterLabel>
+            <translation><!-- Motor Vehicle and Motor Vehicle Parts Wholesaling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-Metallic Mineral Mining and Quarrying</masterLabel>
+            <translation><!-- Non-Metallic Mineral Mining and Quarrying --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-Metallic Mineral Product Manufacturing</masterLabel>
+            <translation><!-- Non-Metallic Mineral Product Manufacturing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-Store Retailing and Retail Commission-Based Buying and/or Selling</masterLabel>
+            <translation><!-- Non-Store Retailing and Retail Commission-Based Buying and/or Selling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oil and Gas Extraction</masterLabel>
+            <translation><!-- Oil and Gas Extraction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Goods Wholesaling</masterLabel>
+            <translation><!-- Other Goods Wholesaling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Store-Based Retailing</masterLabel>
+            <translation><!-- Other Store-Based Retailing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Transport</masterLabel>
+            <translation><!-- Other Transport --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personal and Other Services</masterLabel>
+            <translation><!-- Personal and Other Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Petroleum and Coal Product Manufacturing</masterLabel>
+            <translation><!-- Petroleum and Coal Product Manufacturing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Polymer Product and Rubber Product Manufacturing</masterLabel>
+            <translation><!-- Polymer Product and Rubber Product Manufacturing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Postal and Courier Pick-up and Delivery Services</masterLabel>
+            <translation><!-- Postal and Courier Pick-up and Delivery Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Preschool and School Education</masterLabel>
+            <translation><!-- Preschool and School Education --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Primary Metal and Metal Product Manufacturing</masterLabel>
+            <translation><!-- Primary Metal and Metal Product Manufacturing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Printing (including the Reproduction of Recorded Media)</masterLabel>
+            <translation><!-- Printing (including the Reproduction of Recorded Media) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Private Households Employing Staff and Undifferentiated Goods- and Service-Producing Activities of Households for Own Use</masterLabel>
+            <translation><!-- Private Households Employing Staff and Undifferentiated Goods- and Service-Producing Activities of Households for Own Use --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Professional, Scientific and Technical Services (Except Computer System Design and Related Services)</masterLabel>
+            <translation><!-- Professional, Scientific and Technical Services (Except Computer System Design and Related Services) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Property Operators and Real Estate Services</masterLabel>
+            <translation><!-- Property Operators and Real Estate Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public Administration</masterLabel>
+            <translation><!-- Public Administration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public Order, Safety and Regulatory Services</masterLabel>
+            <translation><!-- Public Order, Safety and Regulatory Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Publishing (except Internet and Music Publishing)</masterLabel>
+            <translation><!-- Publishing (except Internet and Music Publishing) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pulp, Paper and Converted Paper Product Manufacturing</masterLabel>
+            <translation><!-- Pulp, Paper and Converted Paper Product Manufacturing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rail Transport</masterLabel>
+            <translation><!-- Rail Transport --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rental and Hiring Services (except Real Estate)</masterLabel>
+            <translation><!-- Rental and Hiring Services (except Real Estate) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repair and Maintenance</masterLabel>
+            <translation><!-- Repair and Maintenance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Residential Care Services</masterLabel>
+            <translation><!-- Residential Care Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Road Transport</masterLabel>
+            <translation><!-- Road Transport --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Social Assistance Services</masterLabel>
+            <translation><!-- Social Assistance Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sports and Recreation Activities</masterLabel>
+            <translation><!-- Sports and Recreation Activities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Telecommunications Services</masterLabel>
+            <translation><!-- Telecommunications Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tertiary Education</masterLabel>
+            <translation><!-- Tertiary Education --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Textile, Leather, Clothing and Footwear Manufacturing</masterLabel>
+            <translation><!-- Textile, Leather, Clothing and Footwear Manufacturing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transport Equipment Manufacturing</masterLabel>
+            <translation><!-- Transport Equipment Manufacturing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transport Support Services</masterLabel>
+            <translation><!-- Transport Support Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warehousing and Storage Services</masterLabel>
+            <translation><!-- Warehousing and Storage Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waste Collection, Treatment and Disposal Services</masterLabel>
+            <translation><!-- Waste Collection, Treatment and Disposal Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Water Supply, Sewerage and Drainage Services</masterLabel>
+            <translation><!-- Water Supply, Sewerage and Drainage Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Water Transport</masterLabel>
+            <translation><!-- Water Transport --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wood Product Manufacturing</masterLabel>
+            <translation><!-- Wood Product Manufacturing --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

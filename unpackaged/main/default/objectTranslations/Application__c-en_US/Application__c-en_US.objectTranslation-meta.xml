@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Application</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Applications</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Application Layout</layout>
+        <sections>
+            <label><!-- Application Information --></label>
+            <section>Application Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Discount --></label>
+            <section>Discount</section>
+        </sections>
+        <sections>
+            <label><!-- Loan Details --></label>
+            <section>Loan Details</section>
+        </sections>
+        <sections>
+            <label><!-- Payments --></label>
+            <section>Payments</section>
+        </sections>
+        <sections>
+            <label><!-- Refinance --></label>
+            <section>Refinance</section>
+        </sections>
+        <sections>
+            <label><!-- Settlement Details --></label>
+            <section>Settlement Details</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- New Applicant --></label>
+        <name>AddApplicant</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Convert to Loan --></label>
+        <name>Convert_Application</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Make Hay --></label>
+        <name>CreateHayAccount</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- MSA Instructions --></label>
+        <name>MSA_Instructions</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Recalculate --></label>
+        <name>Recalculate</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Decision --></label>
+        <name>RequestApplicationDecision</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Request Re-Decision --></label>
+        <name>Request_Re_Decision</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Valex AVM Order --></label>
+        <name>Valex_AVM_Order</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Valex Desktop Order --></label>
+        <name>Valex_Desktop_Order</name>
+    </quickActions>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

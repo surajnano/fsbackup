@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LarryAPIToken__c</fullName>
+    <description>Token generated in python and used for authenticating onboarding api calls</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Token generated in python and used for authenticating onboarding api calls</inlineHelpText>
+    <label>Larry API Token</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

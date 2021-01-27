@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Name of originator of the entry. This may vary from Name of the
+User. All coded character set valid. Must not contain all blanks.
+Left justified, blank filled. --></help>
+        <label><!-- Name of Remitter --></label>
+        <name>Name_of_Remitter__c</name>
+    </CustomFieldTranslation>

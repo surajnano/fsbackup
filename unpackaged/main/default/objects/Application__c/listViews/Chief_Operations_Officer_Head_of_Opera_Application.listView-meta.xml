@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Chief_Operations_Officer_Head_of_Opera_Application</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Chief Operations Officer / Head of Opera</label>
+    <queue>Chief_Operations_Officer_Head_of_Opera</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

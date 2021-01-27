@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MarketingPause__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>This imitates the ‘Marketing opt out’ flag, but only for a selected time period</inlineHelpText>
+    <label>Marketing Pause</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1 month</fullName>
+                <default>false</default>
+                <label>1 month</label>
+            </value>
+            <value>
+                <fullName>3 months</fullName>
+                <default>false</default>
+                <label>3 months</label>
+            </value>
+            <value>
+                <fullName>6 months</fullName>
+                <default>false</default>
+                <label>6 months</label>
+            </value>
+            <value>
+                <fullName>1 year</fullName>
+                <default>false</default>
+                <label>1 year</label>
+            </value>
+            <value>
+                <fullName>Custom date range</fullName>
+                <default>false</default>
+                <label>Custom date range</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

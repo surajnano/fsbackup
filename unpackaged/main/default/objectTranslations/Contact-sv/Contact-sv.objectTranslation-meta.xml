@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    <fieldSets>
+        <label><!-- LBL.Label_Field_Set_Relationship_Group_Members --></label>
+        <name>WM_Client_Relationship_Group_Members</name>
+    </fieldSets>
+    <layouts>
+        <layout>Contact (Individual) Layout</layout>
+        <sections>
+            <label>Adress 2</label>
+            <section>Address 2</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Details --></label>
+            <section>Contact Details</section>
+        </sections>
+        <sections>
+            <label>Anställningsinformation</label>
+            <section>Employment Information</section>
+        </sections>
+        <sections>
+            <label>Telefon och e-post</label>
+            <section>Phone and Email</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Contact (Policyholder) Layout</layout>
+        <sections>
+            <label>Kommunikationsdetaljer</label>
+            <section>Communication Details</section>
+        </sections>
+        <sections>
+            <label>Kontaktuppgifter</label>
+            <section>Contact Details</section>
+        </sections>
+        <sections>
+            <label>Demografi</label>
+            <section>Demographics</section>
+        </sections>
+        <sections>
+            <label>Anställningsinformation</label>
+            <section>Employment Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Contact (Retail Client - Individual) Layout</layout>
+        <sections>
+            <label>Kommunikationsdetaljer</label>
+            <section>Communication Details</section>
+        </sections>
+        <sections>
+            <label>Kommunikationspreferens</label>
+            <section>Communication Preferences</section>
+        </sections>
+        <sections>
+            <label>Känn din kund</label>
+            <section>Know Your Client</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Contact Layout</layout>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <webLinks>
+        <label><!-- Create_Action_Plan --></label>
+        <name>Create_Action_Plan</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Action_Plans --></label>
+        <name>Create_Action_Plans</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+</CustomObjectTranslation>

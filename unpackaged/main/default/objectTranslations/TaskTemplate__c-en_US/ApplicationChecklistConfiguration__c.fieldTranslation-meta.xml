@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Application Checklist Configuration --></label>
+        <name>ApplicationChecklistConfiguration__c</name>
+        <relationshipLabel><!-- Task Templates --></relationshipLabel>
+    </CustomFieldTranslation>

@@ -1,0 +1,9 @@
+<template>
+    
+    <lightning-progress-indicator if:true={applicationStatusWrapper} type="path" has-error="true" variant="base">
+        <template for:each={applicationStatusWrapper} for:item="wrapper">
+            <lightning-progress-step class={wrapper.className} key={wrapper} label={wrapper.status} value={wrapper.status}></lightning-progress-step>
+        </template>
+    </lightning-progress-indicator>
+    
+</template>
